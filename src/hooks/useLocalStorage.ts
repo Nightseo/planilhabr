@@ -122,7 +122,7 @@ export const useLocalStorage = <T>(
 export const useUserPreferences = () => {
   return useLocalStorage('user-preferences', {
     theme: 'light' as 'light' | 'dark',
-    language: 'de' as 'de' | 'en',
+    language: 'pt' as 'pt' | 'en',
     cookiesAccepted: false,
     favoriteCategories: [] as string[]
   }, {

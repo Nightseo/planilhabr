@@ -100,7 +100,7 @@ const initialAppState: AppState = {
 
 const initialUserPreferences: UserPreferences = {
   theme: 'light',
-  language: 'de',
+  language: 'pt',
   cookiesAccepted: false,
   favoriteCategories: []
 }

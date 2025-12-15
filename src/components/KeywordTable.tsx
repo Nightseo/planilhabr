@@ -74,16 +74,16 @@ const StatusIcon: React.FC<StatusIconProps> = ({ status, className }) => {
 }
 
 // ===============================
-// STATUS BADGE KOMPONENTE
+// STATUS BADGE COMPONENT
 // ===============================
 
 const StatusBadge: React.FC<{ status: Keyword['status'] }> = ({ status }) => {
   const config = {
-    pending: { style: 'bg-gray-100 text-gray-800', label: 'Ausstehend' },
-    new: { style: 'bg-orange-100 text-orange-800', label: 'Neu' },
-    excel_generated: { style: 'bg-green-100 text-green-800', label: 'Excel erstellt' },
-    seo_generated: { style: 'bg-purple-100 text-purple-800', label: 'SEO erstellt' },
-    completed: { style: 'bg-green-100 text-green-800', label: 'Abgeschlossen' }
+    pending: { style: 'bg-gray-100 text-gray-800', label: 'Pendente' },
+    new: { style: 'bg-orange-100 text-orange-800', label: 'Novo' },
+    excel_generated: { style: 'bg-green-100 text-green-800', label: 'Excel criado' },
+    seo_generated: { style: 'bg-purple-100 text-purple-800', label: 'SEO criado' },
+    completed: { style: 'bg-green-100 text-green-800', label: 'Concluido' }
   }
 
   const { style, label } = config[status]
@@ -96,17 +96,17 @@ const StatusBadge: React.FC<{ status: Keyword['status'] }> = ({ status }) => {
 }
 
 // ===============================
-// DIFFICULTY BADGE KOMPONENTE
+// DIFFICULTY BADGE COMPONENT
 // ===============================
 
 const DifficultyBadge: React.FC<{ difficulty: number }> = ({ difficulty }) => {
   if (difficulty === 0) {
-    return <span className="px-2 py-1 text-xs font-medium rounded bg-green-100 text-green-800">Einfach</span>
+    return <span className="px-2 py-1 text-xs font-medium rounded bg-green-100 text-green-800">Facil</span>
   }
   if (difficulty <= 3) {
-    return <span className="px-2 py-1 text-xs font-medium rounded bg-yellow-100 text-yellow-800">Mittel</span>
+    return <span className="px-2 py-1 text-xs font-medium rounded bg-yellow-100 text-yellow-800">Medio</span>
   }
-  return <span className="px-2 py-1 text-xs font-medium rounded bg-red-100 text-red-800">Schwer</span>
+  return <span className="px-2 py-1 text-xs font-medium rounded bg-red-100 text-red-800">Dificil</span>
 }
 
 // ===============================
@@ -392,25 +392,25 @@ const TableHeader: React.FC<TableHeaderProps> = ({
           
           <div className="flex flex-col sm:flex-row gap-3">
             <Input
-              placeholder="Keywords suchen..."
+              placeholder="Buscar keywords..."
               value={filters.search}
               onChange={(e) => onFiltersChange({ ...filters, search: e.target.value })}
               className="min-w-[200px]"
-              aria-label="Keywords durchsuchen"
+              aria-label="Buscar keywords"
             />
-            
+
             <select
               value={filters.status}
               onChange={(e) => onFiltersChange({ ...filters, status: e.target.value as KeywordFilters['status'] })}
               className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500"
-              aria-label="Nach Status filtern"
+              aria-label="Filtrar por status"
             >
-              <option value="all">Alle Status</option>
-              <option value="pending">Ausstehend</option>
-              <option value="new">Neu</option>
-              <option value="excel_generated">Excel erstellt</option>
-              <option value="seo_generated">SEO erstellt</option>
-              <option value="completed">Abgeschlossen</option>
+              <option value="all">Todos os status</option>
+              <option value="pending">Pendente</option>
+              <option value="new">Novo</option>
+              <option value="excel_generated">Excel criado</option>
+              <option value="seo_generated">SEO criado</option>
+              <option value="completed">Concluido</option>
             </select>
           </div>
         </div>

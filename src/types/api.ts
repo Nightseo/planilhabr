@@ -71,8 +71,8 @@ export interface BulkUpdateKeywordsRequest {
 
 export interface GenerateExcelRequest {
   readonly keywordId: string
-  readonly language?: 'de' | 'en'
-  readonly country?: 'DE' | 'AT' | 'CH'
+  readonly language?: 'pt' | 'en'
+  readonly country?: 'BR'
   readonly template?: 'basic' | 'advanced' | 'professional'
 }
 
@@ -93,7 +93,7 @@ export interface GenerateExcelResponse {
 
 export interface GenerateSEORequest {
   readonly keywordId: string
-  readonly language?: 'de' | 'en'
+  readonly language?: 'pt' | 'en'
   readonly targetAudience?: 'business' | 'personal' | 'professional'
   readonly contentLength?: 'short' | 'medium' | 'long'
 }

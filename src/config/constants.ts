@@ -143,7 +143,7 @@ export const CATEGORIES: Record<CategoryId, Category> = {
 export const NAVIGATION_CONFIG = {
   MAIN_MENU: [
     { id: 'home', label: 'Inicio', href: '/', primary: false },
-    { id: 'categories', label: 'Categorias', href: '/categorias', primary: false },
+    { id: 'categories', label: 'Categorias', href: '/#templates', primary: false },
     { id: 'templates', label: 'Planilhas', href: '/planilhas', primary: false },
     { id: 'contact', label: 'Contato', href: '/contato', primary: true }
   ]
@@ -151,7 +151,7 @@ export const NAVIGATION_CONFIG = {
 
 export const NAVIGATION_ITEMS = [
   { name: 'Inicio', href: '/' },
-  { name: 'Categorias', href: '/categorias' },
+  { name: 'Categorias', href: '/#templates' },
   { name: 'Planilhas', href: '/planilhas' },
   { name: 'Contato', href: '/contato' }
 ] as const
