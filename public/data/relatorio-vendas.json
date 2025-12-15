@@ -1,0 +1,104 @@
+{
+  "slug": "relatorio-vendas",
+  "keyword": "Planilha Relatorio De Vendas Excel",
+  "category": "Estoque",
+  "title": "Planilha Relatório de Vendas Excel: vendedor e produto",
+  "description": "Consolide e analise vendas no Excel com resumos por vendedor e produto para decisões rápidas. Ideal para informática, e-commerces e distribuidores.",
+  "metaTitle": "Planilha Relatório de Vendas Excel: vendedor e produto",
+  "metaDescription": "Consolide e analise vendas no Excel com resumos por vendedor e produto para decisões rápidas. Ideal para informática, e-commerces e distribuidores.",
+  "h1": "Planilha Relatorio De Vendas Excel",
+  "keywords": "planilha relatorio de vendas excel, planilha vendas por vendedor, relatorio de vendas excel brasil, planilha vendas e-commerce, modelo planilha vendas distribuidora",
+  "briefDescription": "Consolidar e analisar vendas em Excel com visão detalhada e resumos por vendedor e produto para decisões rápidas. Útil para lojas de informática, e-commerces e distribuidores no Brasil (proprietários, gerentes comerciais, analistas de vendas).",
+  "features": [
+    "Fechamento de vendas em 15 minutos com total geral automático.",
+    "Evita erros de digitação com cálculo automático Quantidade x Preço.",
+    "Visão por 5 filtros: Data, Vendedor, Cliente, Produto e Região.",
+    "Ranking automático dos vendedores por faturamento e participação no total.",
+    "Ranking de produtos mostra volumes, R$ faturado e % do total.",
+    "Dois gráficos prontos agilizam reuniões: colunas comparativas e pizza de participação.",
+    "Comissões por vendedor facilitadas com totais em R$ já consolidados.",
+    "Economiza tempo com cabeçalho congelado e AutoFiltro para buscas.",
+    "Impressão rápida com formatação monetária em Real e estilos prontos.",
+    "Ordenação do maior faturamento para o menor destaca prioridades de ação."
+  ],
+  "seoContent": {
+    "sections": [
+      {
+        "id": "need",
+        "title": "Por que sua empresa precisa desta planilha de Relatório de Vendas",
+        "content": "<p>No dia a dia do varejo e da distribuição no Brasil, a venda acontece em vários canais (loja física, e-commerce, marketplaces) e o empresário precisa responder perguntas simples: quem vendeu mais, qual produto gira, quanto faturou por região. Sem uma base estruturada, os números ficam dispersos entre cupons, NF-e, planilhas soltas e prints. Resultado: decisões no escuro, comissões pagas com erro e tensão com o contador na hora de fechar o mês.</p><p>Segundo IBGE/SEBRAE, as MPEs representam a grande maioria dos CNPJs no país e muitas enfrentam dificuldades de gestão nos primeiros anos. Organizar a informação de vendas em Excel, com consolidação automática, reduz retrabalho, apoia metas e acelera respostas para o financeiro e para o fiscal (DRE, conferência de receitas, emissão de notas). Você ganha velocidade sem depender de TI.</p><ul><li><strong>Controle real</strong>: visão por Data, Vendedor, Cliente (CPF/CNPJ), Produto e Região, já em R$.</li><li><strong>Decisão rápida</strong>: ranking automático de vendedores e produtos com participação %.</li><li><strong>Menos erro</strong>: total por venda calculado e total geral fechado em Real.</li><li><strong>Apresentação pronta</strong>: 2 gráficos (colunas e pizza) para reuniões.</li><li><strong>Comissionamento</strong>: estrutura que apoia metas e cálculo de comissão por vendedor.</li></ul>"
+      },
+      {
+        "id": "scope",
+        "title": "Estrutura e conteúdo da planilha",
+        "content": "<p>A planilha foi construída para consolidar e analisar vendas com clareza e rapidez. Ela contém três abas integradas, com filtros, congelamento de cabeçalho e formatação monetária em R$.</p><ul><li><strong>Vendas Detalhadas</strong>: registro linha a linha com campos Data, Vendedor, Cliente (Nome/CPF/CNPJ), Produto (SKU), Quantidade, Preço Unitário, <strong>Total</strong> e Região. O <strong>Total</strong> é calculado automaticamente (Quantidade x Preço Unitário). No rodapé, o <strong>Total Geral</strong> soma todas as vendas (SOMA). Cabeçalho congelado e AutoFiltro para localizar rapidamente por período, vendedor, cliente, produto ou região.</li><li><strong>Resumo por Vendedor</strong>: ranking que contabiliza <strong>Qtd. de Vendas</strong> (CONT.SES/CONT.SE), <strong>Total Vendido (R$)</strong> e <strong>% do Total</strong> (Total do Vendedor / Total Geral). Ordenação automática do maior para o menor faturamento e gráfico de <strong>colunas</strong> pronto para apresentação.</li><li><strong>Resumo por Produto</strong>: ranking de <strong>Qtd. Vendida</strong> (SOMASES na quantidade), <strong>Total Vendido (R$)</strong> (SOMASES no total) e <strong>% do Total</strong>. Ordenado do maior para o menor e com gráfico de <strong>pizza</strong>.</li></ul><p>Os resumos podem ser implementados com <strong>SOMASES/CONT.SES</strong> (fórmulas acessíveis) ou via <strong>Tabela Dinâmica</strong> — a planilha já vem configurada. Inclui estilos para impressão, formatação contábil em Real, e automações: cálculo de totais, consolidações por vendedor/produto, percentuais de participação e ordenação dos rankings.</p>"
+      },
+      {
+        "id": "usage",
+        "title": "Como usar passo a passo",
+        "content": "<ol><li><strong>Faça uma cópia</strong> do arquivo e renomeie com o mês/ano (ex.: Relatorio_Vendas_04-2025.xlsx). Salve no OneDrive/Google Drive para versionamento.</li><li><strong>Padronize cadastros</strong>: defina a lista de Vendedores, Regiões e Produtos (SKU). Use Validação de Dados para evitar variações (\"João\" vs \"Joao\").</li><li><strong>Lance as vendas</strong> na aba Vendas Detalhadas: Data (dd/mm/aaaa), Vendedor, Cliente (nome e CPF/CNPJ, se tiver), Produto (ex.: SSD 480GB), Quantidade e Preço Unitário.</li><li><strong>Confira o Total</strong>: o valor é calculado automaticamente (Quantidade x Preço). A coluna Total está em R$.</li><li><strong>Aplique filtros</strong> pelo período, vendedor ou região (ex.: Sudeste) para conferir rapidamente as vendas da semana.</li><li><strong>Consulte o Resumo por Vendedor</strong>: veja ranking, participação % e o gráfico de colunas para reunião comercial.</li><li><strong>Consulte o Resumo por Produto</strong>: identifique itens campeões/encalhados e use o gráfico de pizza em apresentações.</li><li><strong>Personalize</strong>: adicione a coluna <em>Canal</em> (Loja, Site, Mercado Livre, Shopee) e uma coluna <em>% Comissão</em>. Crie uma aba \"Comissões\" somando Total x % por vendedor.</li><li><strong>Imprima/Exporte</strong>: use as páginas prontas para PDF em A4 paisagem nas abas de resumo, com gráficos.</li><li><strong>Integre com o contador</strong>: envie o Resumo e a base (CSV) para conciliação com NF-e e DRE.</li></ol><p><strong>Alerta:</strong> não edite nem apague células com fórmulas nos resumos; mantenha o formato decimal do Excel brasileiro (vírgula para centavos). Evite mesclar células na base.</p><p><strong>Dica profissional:</strong> transforme a base em <strong>Tabela (Ctrl+T)</strong>. Assim, os resumos se atualizam automaticamente ao adicionar novas linhas e você pode usar Segmentações de Dados.</p>"
+      },
+      {
+        "id": "comparison",
+        "title": "Excel vs alternativas (ERP, Google Sheets, BI)",
+        "content": "<p><strong>Excel</strong> brilha quando você precisa de agilidade, baixo custo e flexibilidade. Para lojas de informática, e-commerces menores e distribuidores com equipe enxuta, a planilha cobre bem a consolidação, rankings e gráficos, sem mensalidade e funcionando offline. É ideal para até algumas centenas de vendas/mês e times que não precisam de multiusuário simultâneo pesado.</p><p><strong>Limitações</strong>: controle de estoque em tempo real, emissão/integração de NF-e, auditoria de dados, múltiplos usuários editando ao mesmo tempo e integrações nativas com marketplaces. Requer disciplina para manter padrões e evitar que fórmulas sejam alteradas.</p><p><strong>Alternativas</strong>: ERPs nacionais (Bling, Tiny, Omie, Conta Azul) oferecem cadastro centralizado, NF-e, estoque e integrações; custam mensalidade, mas reduzem esforço manual. <strong>Google Sheets</strong> facilita colaboração simultânea com equipe remota. Para análises mais ricas, <strong>Power BI</strong> conecta várias fontes (ERP, marketplace) e cria painéis automatizados.</p><p><strong>Recomendação</strong>: use esta planilha se você quer controle rápido do comercial e relatórios limpos já em R$. Migre para ERP/BI quando precisar de integrações fiscais, estoque integrado, vendas em múltiplos canais com volume alto e governança de acessos (CLT, turnos, metas e comissionamento complexos).</p>"
+      },
+      {
+        "id": "pitfalls",
+        "title": "Erros comuns e dicas de especialista",
+        "content": "<ul><li><strong>Cadastrar de forma inconsistente</strong>: \"SSD 480GB\" em um dia e \"SSD480\" no outro; \"Maria\" vs \"Maria S.\". Isso quebra rankings por produto/vendedor. Solução: use <strong>Validação de Dados</strong> com listas e SKUs.</li><li><strong>Quebrar fórmulas</strong>: apagar células do Total, Total Geral ou campos do resumo. Proteja as áreas calculadas e edite apenas a base. Mantenha uma cópia de segurança.</li><li><strong>Formatos errados</strong>: datas em texto e valores com ponto no lugar da vírgula geram somas incorretas. Padronize Data (dd/mm/aaaa) e moeda em R$; revise importações de CSV.</li></ul><ul><li><strong>Use Tabela (Ctrl+T)</strong>: nomeie a base como Vendas. Fórmulas com SOMASES/CONT.SES ficam estáveis, e os resumos atualizam ao adicionar linhas. Ative <strong>Ctrl+Shift+L</strong> para filtros rápidos.</li><li><strong>Listas dinâmicas de seleção</strong>: crie listas de Vendedores/Produtos que se atualizam sozinhas (com Tabela + recursos como ÚNICO no Excel 365) e aplique Validação de Dados. Reduz drasticamente erros de digitação.</li><li><strong>Power Query para importar</strong>: traga XML/CSV de NF-e, ERP ou marketplace, aplique “Remover Duplicatas” e padronize colunas (ex.: Região). Automatize a atualização mensal. Dica: ao escrever fórmulas, use <strong>F4</strong> para fixar referências e acelerar a montagem dos cálculos.</li></ul><p>Com disciplina de cadastro, proteção das áreas calculadas e automação de importações, o relatório fica confiável para decisões e para o contador.</p>"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "A planilha funciona no Google Sheets?",
+      "answer": "Sim. Faça upload do .xlsx no Google Drive e abra no Sheets (Arquivo > Importar > Upload). Revise a formatação em R$, filtros e gráficos; se precisar, recongele o cabeçalho (Exibir > Congelar > 1 linha)."
+    },
+    {
+      "question": "Preciso pagar ou fazer cadastro para baixar?",
+      "answer": "Nao. E 100% gratis, sem cadastro e sem assinatura. Baixou, usou."
+    },
+    {
+      "question": "Posso usar na minha empresa, inclusive comercialmente?",
+      "answer": "Sim, uso livre em CNPJ ou CPF dentro da sua empresa. Voce pode duplicar e adaptar; so nao revender a planilha como produto."
+    },
+    {
+      "question": "Consigo personalizar campos, colunas e graficos?",
+      "answer": "Sim. Adicione colunas (ex.: NFe, CFOP, Canal), edite validacoes e ajuste formulas (SOMASES/CONT.SES). Apenas mantenha os cabecalhos usados nos resumos/rankings para nao quebrar os calculos."
+    },
+    {
+      "question": "E compativel com qual versao do Excel e LibreOffice?",
+      "answer": "Excel 2013, 2016, 2019, 2021 e Microsoft 365 (Windows/Mac). No LibreOffice Calc 7.x funciona, mas graficos e alguns filtros podem mudar de estilo. Nao usamos macros; desempenho ideal ate ~100 mil linhas por aba."
+    },
+    {
+      "question": "A planilha calcula comissao por vendedor e metas?",
+      "answer": "Sim. Defina a % por vendedor e a planilha calcula a comissao sobre o faturamento e compara com a meta. Ex.: 3% sobre R$ 50.000 = R$ 1.500."
+    },
+    {
+      "question": "Sou MEI ou loja pequena, serve para mim?",
+      "answer": "Sim. Atende MEI, micro e pequenas (e-commerce, distribuidor, loja fisica) e aceita CPF/CNPJ na base. Para apuracao fiscal (NFe, ICMS), use seu ERP/contador."
+    },
+    {
+      "question": "Como importar dados do meu ERP ou marketplace?",
+      "answer": "Exporte CSV/XLSX com Data, Vendedor, Cliente, Produto, Quantidade, Preco e Regiao (Bling, Tiny, Tray, Magalu, Shopee etc.). Cole na aba Base, confira separador decimal (virgula) e moeda em R$. No Excel a ordenacao dos rankings e automatica; no Sheets pode ser preciso reclassificar."
+    }
+  ],
+  "schema": {
+    "datePublished": "2025-12-15T13:46:35.388Z"
+  },
+  "excelUrl": "/downloads/excel-Planilha_Relatorio_De_Vendas_Excel-1765805848391.xlsx",
+  "downloadCount": 2498,
+  "rating": 4.8,
+  "createdAt": "2025-12-15T13:46:35.388Z",
+  "updatedAt": "2025-12-15T13:46:35.388Z",
+  "texts": {
+    "downloadButton": "Baixar Gratis",
+    "featuresTitle": "O que esta planilha inclui?",
+    "faqsTitle": "Perguntas Frequentes",
+    "ctaTitle": "Pronto para organizar seu negocio?",
+    "ctaSubtitle": "Baixe esta planilha profissional gratuitamente e economize tempo",
+    "ctaButton": "Baixar Agora - 100% Gratis",
+    "benefits": "Download imediato - Sem cadastro - Compativel com Excel, Google Sheets e LibreOffice"
+  }
+}

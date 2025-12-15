@@ -1,0 +1,105 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# ============================================
+# PRIVATE CODE - DO NOT UPLOAD TO GITHUB
+# ============================================
+
+# Generator system (AI-powered template generation)
+/generator/
+generator.js
+fast.js
+excel_generator.py
+test-generator.js
+verify_system.js
+
+# Keywords management (internal admin tool)
+/src/app/keywords/
+
+# Excel Generator (internal admin tool)
+/src/app/excel-generator/
+
+# API routes (backend logic)
+/src/app/api/
+
+# Scripts (automation and maintenance)
+/scripts/
+
+# Model configuration
+/config/model-config.js
+
+# Generated files
+/public/downloads/*.py
+*.py
+
+# Test files
+test-*.js
+test-*.py

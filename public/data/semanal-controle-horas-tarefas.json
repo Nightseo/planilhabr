@@ -1,0 +1,104 @@
+{
+  "slug": "semanal-controle-horas-tarefas",
+  "keyword": "Planilha Semanal Excel",
+  "category": "Financeiro",
+  "title": "Planilha Semanal Excel: controle horas e tarefas por cliente",
+  "description": "Controle a semana no Excel por projeto/cliente: registre tarefas, horários e status; consolide indicadores e gráficos. Para PMEs de serviços e gestores",
+  "metaTitle": "Planilha Semanal Excel: controle horas e tarefas por cliente",
+  "metaDescription": "Controle a semana no Excel por projeto/cliente: registre tarefas, horários e status; consolide indicadores e gráficos. Para PMEs de serviços e gestores",
+  "h1": "Planilha Semanal Excel",
+  "keywords": "Planilha Semanal Excel, planilha controle horas por projeto, planilha timesheet excel, planilha tarefas semanal excel, planilha gestão projetos pme",
+  "briefDescription": "Controlar a semana de trabalho por projeto/cliente, registrando tarefas, horários e status, e consolidando tudo em indicadores e gráficos. Útil para PMEs de serviços (TI, marketing, consultoria, engenharia, contabilidade) e para você que é dono, gestor de operações ou coordenador de projetos.",
+  "features": [
+    "Fecha timesheet e NFS-e da semana em 15 minutos.",
+    "Mostra horas por projeto e cliente em uma única tela.",
+    "Calcula total de 40h, média 8h/dia e metas semanais.",
+    "Evita erro de faturamento: horas x valor em R$ por projeto.",
+    "Apoia controle CLT: horas extras e banco de horas visíveis.",
+    "Taxa de conclusão semanal e pendências ajudam a priorizar entregas.",
+    "Relatório rápido por CNPJ/cliente para conferência e emissão da NFS-e.",
+    "Gráficos simples mostram alocação da equipe e gargalos da semana.",
+    "Economiza cerca de 2 horas/semana na conferência de apontamentos.",
+    "Ajuda a prever faturamento mensal por cliente com base nas horas."
+  ],
+  "seoContent": {
+    "sections": [
+      {
+        "id": "need",
+        "title": "Por que sua empresa precisa desta planilha semanal",
+        "content": "<p>Se você vende serviços por projeto (TI, marketing, consultoria, engenharia, contabilidade), controlar horas e status por cliente é o que garante faturamento correto, previsibilidade e produtividade do time. Sem um controle semanal simples e visual, a rotina vira um caos: tarefas se perdem no WhatsApp, prazos estouram, o contador pede o timesheet para emitir NFS-e e você não consegue provar as horas. Resultado: desconto na fatura, retrabalho e desgaste com o cliente.</p><p>No contexto brasileiro, onde PMEs respondem por 99% dos CNPJs e mais da metade dos empregos formais (dados amplamente divulgados pelo Sebrae), a maioria opera com equipe enxuta. Cada hora mal registrada afeta margem, folha CLT e fluxo de caixa. Uma planilha semanal bem feita substitui planilhas soltas e e-mails, centraliza a agenda da semana e dá insumos para decidir prioridades e alocar a equipe com critério.</p><ul><li><strong>Visão única</strong>: horas e status por projeto/cliente na semana.</li><li><strong>Faturamento</strong>: base para NFS-e (horas x tarifa em R$) e conferência com o contador.</li><li><strong>Capacidade</strong>: compara horas planejadas x meta (ex.: 40h/semana por pessoa).</li><li><strong>Gestão</strong>: taxa de conclusão (%), pendências e projetos ativos.</li><li><strong>Prioridade</strong>: gráficos rápidos para redistribuir carga e cumprir prazos.</li></ul>"
+      },
+      {
+        "id": "scope",
+        "title": "O que a planilha contém e como está estruturada",
+        "content": "<p>A planilha foi pensada para PMEs que precisam registrar tarefas com horário de início/fim, consolidar por projeto/cliente e visualizar indicadores semanais. Ela tem três abas principais, com automações e fórmulas acessíveis.</p><ul><li><strong>Planejamento Semanal</strong>: registro diário por projeto/cliente, tarefa/descrição, responsável, <em>início</em>, <em>fim</em> e <em>horas</em>. A duração é calculada automaticamente: (Fim - Início) x 24. Cabeçalho traz <strong>data inicial e final da semana</strong> (ex.: segunda em A1; final = A1+6). <strong>Formatação condicional</strong> colore o status: Concluído (verde), Em andamento (amarelo), Pendente (vermelho). Soma de horas do dia e da semana com <strong>SOMA</strong>.</li><li><strong>Horas e Tarefas</strong>: <strong>consolidação por projeto</strong> com total de horas (SOMASES), tarefas concluídas/pendentes (CONT.SES), <strong>taxa de conclusão %</strong> e <strong>valor estimado (R$)</strong> = Horas x Tarifa do projeto. A tarifa pode vir de uma pequena tabela de cadastro e ser puxada por <strong>PROCX</strong> (ou PROCV). Inclui gráfico de barras para horas por projeto e linha de totais.</li><li><strong>Resumo</strong>: KPIs da semana (total de horas, tarefas concluídas, taxa de conclusão, projetos ativos, média de horas/dia) e <strong>metas</strong> de referência (ex.: 40h/semana, 8h/dia, 80% de conclusão). Traz distribuição de status e gráfico de pizza. Linhas congeladas para navegação rápida.</li></ul><p>Todos os valores financeiros vêm formatados em <strong>R$</strong>, prontos para apoiar faturamento e conversa com o contador.</p>"
+      },
+      {
+        "id": "usage",
+        "title": "Como usar passo a passo (rápido e prático)",
+        "content": "<ol><li><strong>Duplique a semana</strong>: copie a aba Planejamento Semanal para cada nova semana. Em A1, informe a data da segunda-feira; a data final atualiza com +6.</li><li><strong>Cadastre projetos/clientes</strong>: na consolidação, mantenha uma lista de Projetos com <em>Tarifa (R$/h)</em>. Use PROCX/PROCV para puxar a tarifa automaticamente.</li><li><strong>Liste tarefas</strong>: para cada dia, preencha Projeto/Cliente, Tarefa (descrição objetiva), Responsável, Início e Fim.</li><li><strong>Deixe a duração automática</strong>: a coluna Horas calcula (Fim - Início) x 24. Formate com 2 casas decimais.</li><li><strong>Marque o status</strong>: Pendente, Em andamento ou Concluído. As cores mudam via Formatação Condicional.</li><li><strong>Acompanhe totais</strong>: confira as somas de horas por dia e semana no rodapé da aba.</li><li><strong>Veja a consolidação</strong>: na aba Horas e Tarefas, valide totais de horas, concl. x pendentes, % de conclusão e <strong>valor estimado em R$</strong>.</li><li><strong>Analise KPIs</strong>: na aba Resumo, compare com metas (40h/semana, 8h/dia, 80% conclusão) e ajuste prioridades.</li><li><strong>Personalize</strong>: inclua coluna de centro de custo, SLA ou fase do projeto. Adapte metas e tarifas por cliente.</li><li><strong>Fechamento</strong>: gere PDF dos resumos para o cliente/contador e arquive por CNPJ/semana.</li></ol><p><strong>Cuidado</strong>: evite mesclar células e não sobrescreva fórmulas. Proteja a planilha (Revisão &gt; Proteger) e use <strong>Validação de Dados</strong> para o Status.</p><p><strong>Dica profissional</strong>: transforme a base em <em>Tabela</em> (Ctrl+T) para atualizar gráficos e SOMASES automaticamente, e use Segmentação de Dados para filtrar por projeto ou responsável.</p>"
+      },
+      {
+        "id": "comparison",
+        "title": "Excel vs. alternativas (quando usar cada opção)",
+        "content": "<p><strong>Excel</strong> é ótimo para PMEs que precisam começar rápido, sem mensalidade e com total flexibilidade. Vantagens: custo baixo (você já usa Office ou Excel online), funciona offline, personalização total (colunas, fórmulas, R$ por cliente) e fácil extração de relatórios semanais para o contador e NFS-e.</p><p><strong>Limitações do Excel</strong>: colaboração simultânea pode gerar conflitos (especialmente em arquivo local), controle de acesso e trilha de auditoria são simples, risco de erro manual, poucas integrações nativas com NFS-e/ERP, e escalabilidade limitada quando o time passa de 10–15 pessoas ou há muitos projetos simultâneos.</p><p><strong>Sistemas pagos</strong> (ClickUp, Asana, Jira, Notion, Monday) oferecem colaboração em tempo real, automações avançadas, registros de atividade e app mobile robusto. <strong>ERPs brasileiros</strong> (Omie, Conta Azul, Nibo) integram financeiro, faturamento e NFS-e, mas o controle de tarefas/horas é menos flexível sem módulos adicionais.</p><p><strong>Recomendação</strong>: use o Excel se sua operação é enxuta, precisa de controle semanal com estimativa em R$ e quer adaptar rápido ao seu processo. Considere migrar para um sistema quando houver múltiplas equipes, necessidade de aprovações, SLA rígido, integrações automáticas (CRM, NFS-e) e indicadores em tempo real.</p>"
+      },
+      {
+        "id": "pitfalls",
+        "title": "Erros comuns e dicas de especialista",
+        "content": "<ul><li><strong>Erro 1 – Misturar formatos</strong>: registrar horário como texto (\"8:00\" com apóstrofo) e data em formatos diferentes. Isso quebra o cálculo de horas e as SOMASES. Use formato Hora e Data de forma consistente.</li><li><strong>Erro 2 – Não padronizar nomes de projeto</strong>: \"ACME\", \"Acme Ltda\" e \"ACME LTDA\" viram três projetos na consolidação. Mantenha uma lista única com validação de dados.</li><li><strong>Erro 3 – Planilha sem proteção e sem backup</strong>: alguém apaga fórmulas ou altera metas. Proteja células com fórmulas e salve em OneDrive/SharePoint com versões.</li></ul><ul><li><strong>Dica avançada 1 – Base em Tabela + SOMASES</strong>: converta a grade em <em>Tabela</em> (Ctrl+T). Use <strong>SOMASES</strong> e <strong>CONT.SES</strong> referenciando os cabeçalhos da Tabela para totais por projeto, status e semana. As novas linhas entram nos cálculos automaticamente.</li><li><strong>Dica avançada 2 – PROCX para tarifa por cliente</strong>: mantenha um cadastro com Cliente/Projeto e Tarifa (R$/h). Use <strong>PROCX</strong> para retornar a tarifa correta e calcule o valor estimado (Horas x Tarifa) com formatação em Real.</li><li><strong>Dica avançada 3 – Painel com Tabela Dinâmica</strong>: crie uma Tabela Dinâmica para horas por projeto x status. Adicione <em>Segmentações</em> por Responsável e Semana, e congele painéis (Exibir &gt; Congelar Painéis) na aba Resumo para navegação.</li></ul><p><strong>Atalhos úteis</strong>: Ctrl+T (formatar como Tabela), Ctrl+1 (formatar células), Ctrl+; (data atual), Ctrl+Shift+: (hora atual). Com isso, você ganha velocidade e reduz erros no registro diário.</p>"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "A planilha funciona no Google Sheets?",
+      "answer": "Sim. No Sheets, va em Arquivo > Importar e envie o .xlsx para abrir como planilha do Google. As formulas, cores por status, totais e graficos funcionam; revise os intervalos dos graficos e troque o simbolo para R$ se precisar."
+    },
+    {
+      "question": "Preciso pagar ou fazer cadastro para usar?",
+      "answer": "Nao. A planilha e 100% gratis e sem cadastro. Baixe, copie e use como quiser."
+    },
+    {
+      "question": "Posso usar na minha empresa com fins comerciais?",
+      "answer": "Pode, livre para uso comercial (CNPJ ou CPF), inclusive em times TI, marketing, consultoria, engenharia e contabilidade. Serve como base de timesheet para NFS-e e planejamento de capacidade."
+    },
+    {
+      "question": "Consigo personalizar colunas, status e metas da semana?",
+      "answer": "Sim. Voce pode adicionar/renomear colunas, editar a lista de projetos/clientes e os status, e ajustar as metas (40h e 80%) no Resumo. Se inserir colunas/linhas, atualize os intervalos das formulas (SOMA, CONT.SE) e dos graficos."
+    },
+    {
+      "question": "Funciona no Excel antigo e no LibreOffice Calc?",
+      "answer": "Funciona melhor no Excel 2016/2019/2021 e Microsoft 365. No Excel 2013 abre, mas alguns graficos podem perder estilo; no LibreOffice Calc 7+ funciona com pequenas diferencas visuais. Nao usa macros, so formulas padrao."
+    },
+    {
+      "question": "Serve para MEI e calcula valores em R$?",
+      "answer": "Serve, tanto para MEI quanto para empresas maiores. A estimativa financeira por projeto usa horas x valor/hora; basta definir sua tarifa e formatar como R$. Ela ajuda no controle e na NFS-e, mas nao substitui seu sistema fiscal/contabil."
+    },
+    {
+      "question": "Como lancar horas por cliente e gerar base para NFS-e?",
+      "answer": "Registre inicio, fim e tarefa vinculada ao projeto/cliente; a duracao e somada por semana e por projeto automaticamente. Use a consolidacao para filtrar o periodo e exportar como PDF ou Excel e anexar na NFS-e ou enviar ao cliente."
+    },
+    {
+      "question": "Da para trabalhar em equipe na mesma planilha?",
+      "answer": "Sim. No Google Sheets, todos podem editar em tempo real; no Excel, use OneDrive/SharePoint (Microsoft 365) para coautoria. Evite editar o mesmo arquivo .xlsx local por varias pessoas ao mesmo tempo."
+    }
+  ],
+  "schema": {
+    "datePublished": "2025-12-15T13:04:32.630Z"
+  },
+  "excelUrl": "/downloads/excel-Planilha_Semanal_Excel-1765803327428.xlsx",
+  "downloadCount": 3188,
+  "rating": 4.8,
+  "createdAt": "2025-12-15T13:04:32.630Z",
+  "updatedAt": "2025-12-15T13:04:32.630Z",
+  "texts": {
+    "downloadButton": "Baixar Gratis",
+    "featuresTitle": "O que esta planilha inclui?",
+    "faqsTitle": "Perguntas Frequentes",
+    "ctaTitle": "Pronto para organizar seu negocio?",
+    "ctaSubtitle": "Baixe esta planilha profissional gratuitamente e economize tempo",
+    "ctaButton": "Baixar Agora - 100% Gratis",
+    "benefits": "Download imediato - Sem cadastro - Compativel com Excel, Google Sheets e LibreOffice"
+  }
+}

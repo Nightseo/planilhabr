@@ -1,0 +1,104 @@
+{
+  "slug": "salarios-folha-clt-automatizada",
+  "keyword": "Planilha Salarios Excel",
+  "category": "RH",
+  "title": "Planilha Salarios Excel: folha CLT e salário líquido",
+  "description": "Automatize a folha CLT no Excel: cálculos de INSS, IRRF, FGTS e salário líquido por colaborador, centros de custo por departamento e projeção de encargos.",
+  "metaTitle": "Planilha Salarios Excel: folha CLT e salário líquido",
+  "metaDescription": "Automatize a folha CLT no Excel: cálculos de INSS, IRRF, FGTS e salário líquido por colaborador, centros de custo por departamento e projeção de encargos.",
+  "h1": "Planilha Salarios Excel",
+  "keywords": "planilha salarios excel, planilha folha pagamento clt, calculo inss irrf fgts excel, planilha custos departamento rh, modelo salario liquido excel",
+  "briefDescription": "Consolidar e automatizar a folha de pagamento CLT com cálculos de descontos e salário líquido por colaborador. Útil para PMEs brasileiras (indústria, serviços e varejo), especialmente para donos, gestores financeiros e RH que precisam analisar custos por departamento e estimar encargos.",
+  "features": [
+    "Você fecha a folha em 15 minutos com cálculos automáticos",
+    "Você evita erros em INSS 11% e IRRF por faixa",
+    "Você calcula VT 6% e VR de R$ 28,50 automaticamente",
+    "Você vê salário líquido e descontos por funcionário sem planilhas paralelas",
+    "Você resume departamentos com salário médio, headcount e totais instantâneos",
+    "Você projeta encargos patronais: INSS 20%, FGTS 8%, férias e 13º",
+    "Você enxerga o peso de cada custo para cortar gastos",
+    "Você vê totais da folha em R$ com SOMA e filtros",
+    "Você acompanha VR mensal estimado: R$ 28,50 x 22 dias",
+    "Você reforça conformidade CLT com INSS e FGTS calculados corretamente"
+  ],
+  "seoContent": {
+    "sections": [
+      {
+        "id": "need",
+        "title": "Por que sua PME precisa desta planilha de salários no Excel",
+        "content": "<p>Se voce toca uma PME no Brasil, sabe como a folha CLT consome tempo e gera dúvidas. Planilhas soltas, cálculos manuais de VT, INSS e IRRF, dificuldade de consolidar custos por departamento e retrabalho com o contador. Uma planilha estruturada resolve a desorganização, padroniza regras e entrega um holerite confiável por colaborador, com totais da folha e estimativas de encargos patronais. Isso sustenta decisões práticas: contratar, reajustar, realocar headcount e negociar com fornecedores.</p><p>Além de cumprir CLT e dar transparência ao colaborador (CPF, cargo, salário, descontos), voce ganha domínio sobre o custo real do time. Segundo o Sebrae, as MPEs são a imensa maioria das empresas no país e respondem por grande parte dos empregos formais. Quem controla a folha evita surpresas no caixa e conversa melhor com o contador sobre eSocial, INSS e FGTS.</p><ul><li>Centraliza dados por CNPJ, departamento e cargo.</li><li>Cálculo automático de VT (6%), VR (R$ 28,50), INSS (11%) e IRRF por faixas.</li><li>Salário líquido por colaborador e totais da folha em R$.</li><li>Resumo por departamento: headcount, salário médio, totais.</li><li>Projeção de INSS patronal (20%), FGTS (8%), férias e 13º (1/12 cada, férias com 1/3).</li><li>Percentual de cada item no custo total para priorizar reduções.</li></ul>"
+      },
+      {
+        "id": "scope",
+        "title": "O que a planilha contém e como está organizada",
+        "content": "<p>A planilha foi desenhada para PMEs brasileiras (indústria, serviços e varejo) que pagam CLT. Ela tem três abas principais, já com AutoFiltro, linhas congeladas e cabeçalhos dinâmicos com mês/ano atual.</p><ul><li><strong>Folha de Pagamento</strong>: cadastro de colaboradores (ID, nome, CPF, cargo, departamento) e cálculos automáticos: VT = 6% do salário base, VR fixo = R$ 28,50 por colaborador, INSS do empregado = 11% do salário base, IRRF por faixas com dedução simplificada (tabela auxiliar ajustável). Total de descontos = VT + VR + INSS + IRRF. Salário líquido = salário base – descontos. Linha de <strong>TOTAIS</strong> com SOMA automática.</li><li><strong>Resumo por Departamento</strong>: consolida headcount, salário médio e totais de salários por departamento. Descontos e líquido estimados (20%/80% do total salarial) para análise rápida. Inclui gráfico de colunas para comparar áreas (ex.: Vendas, Produção, Administrativo).</li><li><strong>Custos Trabalhistas</strong>: estima encargos patronais e benefícios: INSS patronal 20%, FGTS 8%, VT total (6% do total salarial), VR mensal estimado (R$ 28,50 × 22 dias × headcount), provisões de férias (1/12 + 1/3) e 13º (1/12). Mostra o % de cada item no custo total e gráfico de pizza da distribuição.</li></ul><p>Exemplos de fórmulas acessíveis: VT = Salário_Base*6%; VR = 28,5; INSS_Empregado = Salário_Base*11%; Líquido = Base – (VT+VR+INSS+IRRF). A tabela do IRRF por faixas usa SE aninhado ou PROCV/XLOOKUP.</p>"
+      },
+      {
+        "id": "usage",
+        "title": "Como usar passo a passo e personalizar para sua empresa",
+        "content": "<ol><li>Na aba <strong>Folha de Pagamento</strong>, informe dados da empresa (CNPJ, mês/ano) e confirme o período no cabeçalho.</li><li>Cadastre cada colaborador: ID, nome, CPF, cargo, departamento e salário base (CLT).</li><li>As fórmulas de VT (6%), VR (R$ 28,50), INSS (11%) e IRRF por faixa são aplicadas automaticamente.</li><li>Revise os <strong>Totais</strong> da linha final e verifique o salário líquido por funcionário.</li><li>Vá ao <strong>Resumo por Departamento</strong> para conferir headcount, salário médio e totais; use os filtros para focar em áreas críticas.</li><li>Na aba <strong>Custos Trabalhistas</strong>, valide as premissas: INSS patronal (20%), FGTS (8%), VR mensal (R$ 28,50×22×headcount), provisões de férias e 13º. Os percentuais por item serão calculados.</li><li><strong>Personalize</strong>: ajuste a tabela do IRRF (faixas/deduções), o VR (se seu valor diário for diferente), e o número de dias úteis.</li><li>Use validação de dados para listar departamentos e evitar digitação divergente (ex.: \"Adm\" vs \"Administrativo\").</li><li>Ative <strong>AutoFiltro</strong> (Ctrl+Shift+L) e deixe a primeira linha congelada para facilitar a navegação.</li><li>Exportar: gere PDF da Folha para assinar e arquivar com o contador; mantenha backup mensal.</li><li><strong>Alerta</strong>: o modelo é simplificado (ex.: INSS a 11%). Ajuste com seu contador para sua convenção coletiva e eventos (horas extras, adicionais, afastamentos).</li><li><strong>Dica profissional</strong>: transforme a base em Tabela (Ctrl+T) para que as fórmulas se expandam automaticamente e evitem erros de cópia.</li></ol>"
+      },
+      {
+        "id": "comparison",
+        "title": "Excel vs. sistemas pagos de folha: quando escolher cada um",
+        "content": "<p><strong>Excel</strong> é ideal para PMEs com até ~50 colaboradores, estrutura simples e necessidade de controle de custos por departamento sem investir em software. Vantagens: baixo custo, flexibilidade, funcionamento offline, transparência de cálculos, fácil simulação (cenários de reajuste, headcount, VR/VT), compatível com o que o contador pede.</p><p>Limitações: suscetível a erro manual, não transmite eSocial/SEFIP, não controla eventos complexos (horas extras, adicional noturno, insalubridade, afastamentos), maior esforço para atualizar regras legais ou múltiplas filiais. Exige disciplina (versionamento, proteção de células, auditoria).</p><p><strong>Sistemas de folha</strong> (ex.: soluções de mercado/ERPs) agregam cálculos oficiais, integração com ponto/banco, envio ao eSocial/FGTS, gestão de benefícios e portal do colaborador. Custam mais e exigem implantação, mas reduzem riscos e tempo operacional.</p><p><strong>Recomendação</strong>: use esta planilha quando a prioridade for visibilidade de custos, rapidez de implantação e orçamento enxuto. Migre para sistema quando o quadro crescer, houver muitas regras de convenção, integrações (ponto/DRE) e obrigação de enviar eventos ao governo dentro de prazos.</p>"
+      },
+      {
+        "id": "pitfalls",
+        "title": "Erros comuns e dicas de especialista para não perder dinheiro",
+        "content": "<ul><li><strong>Erro 1 – Misturar salário base com variáveis</strong>: lançar horas extras, comissões e adicionais no salário base distorce VT/INSS/IRRF e o custo por departamento.</li><li><strong>Erro 2 – Tabela de IRRF desatualizada</strong>: manter faixas/parcelas antigas gera holerite errado e reconciliação chata com o contador.</li><li><strong>Erro 3 – Departamentos inconsistentes</strong>: escrever nomes diferentes (\"Adm\", \"Administrativo\") quebra o resumo por departamento e gráficos.</li></ul><ul><li><strong>Dica 1 – Proteja as fórmulas</strong>: selecione apenas as células de entrada (ID, CPF, salário, departamento) para edição e proteja a planilha. Evita que alguém apague o IRRF sem querer.</li><li><strong>Dica 2 – Use Tabela (Ctrl+T) e nomes estruturados</strong>: as fórmulas escalam com o número de linhas; o resumo e os gráficos se atualizam automaticamente, reduzindo manutenção.</li><li><strong>Dica 3 – Auditoria rápida</strong>: aplique formatação condicional nos salários fora da faixa do cargo e use subtotal por departamento para achar desvios. Atalhos úteis: <em>Ctrl+Shift+L</em> (filtros), <em>F4</em> (fixar referências em fórmulas), <em>Alt+=</em> (SOMA).</li></ul><p>Extra: mantenha uma aba oculta com parâmetros (alíquotas, valor do VR, dias úteis). Assim, quando mudar o VR (ex.: R$ 31,00) ou os encargos, voce altera em um único lugar e toda a planilha se recalcula.</p>"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "Funciona no Google Sheets?",
+      "answer": "Sim. Envie o arquivo .xlsx para o Google Drive e abra no Sheets (ou use Arquivo > Importar). Em Arquivo > Configurações, defina Localidade: Brasil para mostrar R$ corretamente; filtros e congelamento funcionam normalmente."
+    },
+    {
+      "question": "Preciso pagar ou fazer cadastro?",
+      "answer": "Não. É 100% gratuita, sem cadastro, sem limite de uso."
+    },
+    {
+      "question": "Posso usar na minha empresa?",
+      "answer": "Pode, inclusive para CNPJ (ME, EPP, LTDA, etc.). Uso comercial é liberado; você pode duplicar e compartilhar internamente."
+    },
+    {
+      "question": "Serve para MEI ou para PJ sem CLT?",
+      "answer": "A planilha foi feita para CLT. Para MEI/PJ, use como estimativa ajustando alíquotas para 0% (INSS/IRRF/FGTS) e mantendo apenas o que fizer sentido nos seus pagamentos."
+    },
+    {
+      "question": "É compatível com quais versões do Excel e LibreOffice?",
+      "answer": "Excel 2016+, Microsoft 365 e Excel para Mac funcionam bem. No LibreOffice Calc 7.x roda, mas alguns filtros/formatos podem mudar; se der erro de fórmula, ajuste o separador de lista (ponto e vírgula)."
+    },
+    {
+      "question": "Consigo personalizar VT, VR, INSS e faixas de IRRF?",
+      "answer": "Sim. Edite as células de parâmetros (VT 6%, VR R$ 28,50, INSS 11% e faixas do IRRF) e tudo recalcula. Para VR diário, mude o valor/dia e os 22 dias usados no custo."
+    },
+    {
+      "question": "Os cálculos batem 100% com o eSocial?",
+      "answer": "Não necessariamente. INSS (11%) e IRRF usam modelo simplificado, então podem divergir da regra progressiva oficial e de casos com dependentes ou pensão; use para gestão/estimativa e valide holerites com seu contador."
+    },
+    {
+      "question": "Como analiso custos por departamento?",
+      "answer": "Preencha a coluna Departamento para cada colaborador (ex.: Comercial, Operações, Loja). O resumo soma headcount, salário médio e totais automaticamente e mostra o peso (%) de cada item no custo."
+    }
+  ],
+  "schema": {
+    "datePublished": "2025-12-15T13:04:31.484Z"
+  },
+  "excelUrl": "/downloads/excel-Planilha_Salarios_Excel-1765803328529.xlsx",
+  "downloadCount": 4412,
+  "rating": 4.8,
+  "createdAt": "2025-12-15T13:04:31.484Z",
+  "updatedAt": "2025-12-15T13:04:31.484Z",
+  "texts": {
+    "downloadButton": "Baixar Gratis",
+    "featuresTitle": "O que esta planilha inclui?",
+    "faqsTitle": "Perguntas Frequentes",
+    "ctaTitle": "Pronto para organizar seu negocio?",
+    "ctaSubtitle": "Baixe esta planilha profissional gratuitamente e economize tempo",
+    "ctaButton": "Baixar Agora - 100% Gratis",
+    "benefits": "Download imediato - Sem cadastro - Compativel com Excel, Google Sheets e LibreOffice"
+  }
+}

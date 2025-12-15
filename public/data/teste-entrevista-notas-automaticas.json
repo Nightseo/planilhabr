@@ -1,0 +1,104 @@
+{
+  "slug": "teste-entrevista-notas-automaticas",
+  "keyword": "Planilha Teste De Excel Para Entrevista",
+  "category": "Vendas",
+  "title": "Planilha Teste de Excel para Entrevista: notas automáticas",
+  "description": "Padronize a avaliação técnica. Calcule notas e status aprovado/reprovado em tempo real, compare candidatos e acompanhe indicadores de RH.",
+  "metaTitle": "Planilha Teste de Excel para Entrevista: notas automáticas",
+  "metaDescription": "Padronize a avaliação técnica. Calcule notas e status aprovado/reprovado em tempo real, compare candidatos e acompanhe indicadores de RH.",
+  "h1": "Planilha Teste De Excel Para Entrevista",
+  "keywords": "planilha teste excel entrevista, modelo avaliação candidatos excel, planilha prova excel rh, planilha notas entrevista, template excel recrutamento",
+  "briefDescription": "Padronizar e automatizar a avaliação de candidatos em entrevistas, com cálculo imediato de notas e status. Útil para RH/TA, gestores contratantes e consultorias de recrutamento que precisam comparar candidatos e acompanhar indicadores de seleção.",
+  "features": [
+    "Padroniza notas técnicas e comportamentais e reduz viés nas decisões.",
+    "Status automático evita planilha manual e acelera triagens em 15 minutos.",
+    "Indicadores prontos mostram taxa de aprovação e média geral rapidamente.",
+    "Metas e diferença visíveis, você corrige gargalos por cargo sem achismo.",
+    "Contagem de aprovados e reprovados evita erros e retrabalho na seleção.",
+    "Filtro e títulos fixos agilizam navegação durante entrevistas ao vivo.",
+    "Formatação em DD/MM/AAAA evita confusão de datas e atrasos legais.",
+    "Média final automática reduz discussões e fecha decisão com critérios claros.",
+    "Taxa de aprovação acompanha meta mensal e antecipa necessidade de vagas.",
+    "Regras de status (>=7 aprovado, >=5 análise) padronizam critérios com gestores."
+  ],
+  "seoContent": {
+    "sections": [
+      {
+        "id": "need",
+        "title": "Por que sua empresa precisa desta planilha de entrevista",
+        "content": "<p>Se sua PME ainda avalia candidatos em anotações soltas, e-mails e arquivos desconectados, você está perdendo tempo e dinheiro. Sem um padrão de notas e critérios, cada gestor usa um método, o que aumenta o viés, dificulta comparar pessoas e prolonga a vaga aberta. Em empresas com CNPJ e equipe enxuta, isso pesa no caixa (CLT, benefícios, horas de entrevistas) e atrapalha o faturamento quando a posição é crítica.</p><p>Além disso, quando os dados ficam espalhados, é difícil prestar contas aos sócios e até ao contador sobre provisões de contratação, impacto em folha e planejamento de custo por vaga. PMEs representam mais de 99% dos CNPJs e respondem por grande parte dos empregos formais no Brasil; processos simples e bem medidos fazem diferença.</p><ul><li>Padroniza critérios técnicos e comportamentais, reduzindo discussões subjetivas.</li><li>Calcula média e status automático (Aprovado, Em Análise, Reprovado) na hora.</li><li>Gera KPIs prontos (taxa de aprovação, maior/menor nota, médias) para decisões rápidas.</li><li>Mostra metas por indicador e o gap, orientando ações de melhoria.</li><li>Facilita análises por cargo, ajudando a priorizar vagas e treinar entrevistadores.</li></ul>"
+      },
+      {
+        "id": "scope",
+        "title": "O que a planilha entrega (estrutura e conteúdo)",
+        "content": "<p>A planilha foi desenhada para padronizar entrevistas, automatizar cálculos e oferecer visão gerencial. Ela é composta por três abas integradas:</p><ul><li><strong>Dados dos Candidatos</strong> – Cadastro com campos como Nome, CPF (opcional, atenção à LGPD), Cargo, Recrutador, Data da Entrevista (formatada em DD/MM/AAAA), Nota Técnica, Nota Comportamental, Comentários e Fonte. A planilha calcula a <strong>média final</strong> automaticamente (média técnica e comportamental) e classifica o <strong>status</strong> por regra: se média é maior ou igual a 7, Aprovado; se maior ou igual a 5, Em Análise; caso contrário, Reprovado. Possui AutoFiltro e linha de títulos congelada para navegação rápida.</li><li><strong>Estatísticas</strong> – KPIs prontos: total de candidatos, média geral, taxa de aprovação, maior e menor nota. Inclui metas editáveis por indicador e o <strong>gap</strong> (resultado menos meta) destacado. Exibe um gráfico de pizza por status para leitura rápida por gestores.</li><li><strong>Análise por Cargo</strong> – Traz contagem de candidatos por cargo e as médias técnica, comportamental e final usando funções como MÉDIA.SE e CONT.SES. Um gráfico de barras compara vagas, evidenciando gargalos de qualidade ou volume.</li></ul><p>Automatizações adicionais: contagem de aprovados, em análise e reprovados; taxa de aprovação baseada nos status; notas com 1–2 casas decimais; e formatações consistentes para impressão ou envio ao gestor contratante.</p>"
+      },
+      {
+        "id": "usage",
+        "title": "Como usar passo a passo (rápido e prático)",
+        "content": "<ol><li>Baixe a planilha, habilite edição e salve como arquivo mestre em uma pasta de RH compartilhada (OneDrive/Google Drive) para histórico.</li><li>Na aba Estatísticas, edite as <strong>metas</strong> (ex.: taxa de aprovação desejada) conforme sua realidade e orçamento (R$ por vaga).</li><li>Vá em Dados dos Candidatos e cadastre os cargos que pretende avaliar. Use Validação de Dados para lista de cargos.</li><li>Para cada entrevista, registre Nome, Cargo, Data (DD/MM/AAAA), Recrutador e a origem do candidato (ex.: LinkedIn, Indicação).</li><li>Lance as notas Técnica e Comportamental (0 a 10). A planilha calcula <strong>média final</strong> e <strong>status</strong> automaticamente.</li><li>Use os filtros por cargo, data ou status para conduzir painéis de entrevista sem perder tempo.</li><li>Confira a aba Estatísticas para ver total, médias, maior/menor nota, taxa de aprovação e gaps versus metas.</li><li>Abra a aba Análise por Cargo para comparar vagas lado a lado (quantidade e médias). Ajuste a priorização de entrevistas.</li><li>Personalize os critérios de nota nas colunas técnicas e comportamentais (ex.: Excel, comunicação, postura). Se mudar pesos, atualize a regra de média.</li><li>Ao final da semana, exporte as Estatísticas em PDF para o gestor ou sócios e salve uma cópia com a data.</li></ol><p><strong>Alerta:</strong> não exclua colunas com fórmulas; oculte ou proteja células de cálculo para evitar quebras.</p><p><strong>Dica profissional:</strong> transforme a base em Tabela (Ctrl+T) para ganhar filtros dinâmicos, listras e atualização automática em gráficos.</p>"
+      },
+      {
+        "id": "comparison",
+        "title": "Excel x sistemas de recrutamento (ATS): quando usar cada um",
+        "content": "<p><strong>Excel</strong> é excelente para PMEs que precisam padronizar entrevistas rápido, sem assinatura mensal. Vantagens: custo zero ou muito baixo, flexibilidade total, controle local e implantação imediata. Com a planilha certa, você tem cálculo de médias, status automático, KPIs e análise por cargo.</p><p>Limitações do Excel: colaboração simultânea mais limitada (risco de versões), ausência de captura automática de currículos, menor rastreabilidade de e-mails entre recrutador e candidato e necessidade de zelo com LGPD (CPF, dados pessoais) manualmente.</p><p><strong>ATS (ex.: Gupy, Sólides, Recrutei)</strong> oferecem publicação de vagas em job boards, triagem automática, comunicação com candidatos e trilhas de aprovação. Custos típicos variam de cerca de R$ 300 a R$ 1.500 por mês, conforme volume e módulos.</p><p><strong>Recomendação prática:</strong> use a planilha quando o volume de vagas for baixo a moderado (ex.: até 10–20 entrevistas por semana), equipe enxuta e necessidade de controlar indicadores sem burocracia. Migre ou complemente com um ATS quando houver alto volume, múltiplas filiais, SLA rígido com gestores, necessidade de integração (career page, testes online) e auditoria completa do funil.</p>"
+      },
+      {
+        "id": "pitfalls",
+        "title": "Erros comuns e dicas de especialista para entrevistas no Excel",
+        "content": "<p><strong>3 erros comuns</strong></p><ul><li><strong>Critérios sem padronização.</strong> Cada entrevistador usa escalas diferentes; as notas não são comparáveis. Solução: defina rubricas objetivas por cargo (o que vale 6, 8, 10) e treine o time.</li><li><strong>Fórmulas quebradas.</strong> Exclusão de colunas ou sobreposição de células de cálculo derruba KPIs. Solução: proteja a planilha, oculte colunas técnicas e mantenha uma cópia mestre.</li><li><strong>Dados pessoais sem cuidado.</strong> Guardar CPF e contatos sem controle fere a LGPD. Solução: colete o mínimo necessário, restrinja acesso e defina política de retenção.</li></ul><p><strong>3 dicas avançadas</strong></p><ul><li><strong>Validação de dados</strong> para notas (0 a 10, com 1 casa decimal) e para cargos (lista). Isso evita erros de digitação e acelera entrevistas.</li><li><strong>Use Tabelas (Ctrl+T)</strong> e nomes nomeados. Gráficos e KPIs se atualizam automaticamente ao adicionar linhas; fica mais difícil quebrar referências.</li><li><strong>Regras visuais</strong> com Formatação Condicional: destaque Aprovado em verde, Em Análise em amarelo e Reprovado em vermelho. Ajuda muito no painel em tempo real.</li></ul><p><strong>Atalhos úteis</strong>: Ctrl+Shift+L liga/desliga filtros; F4 fixa referências em fórmulas; Ctrl+1 abre formatação (ajuste para DD/MM/AAAA e decimais); Ctrl+; insere a data do dia. Pequenos hábitos que economizam minutos em cada entrevista.</p>"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "A planilha funciona no Google Sheets?",
+      "answer": "Sim. Envie o .xlsx para o Drive, abra no Sheets e confira as fórmulas (MÉDIA, MÉDIASE, SE, CONT.SE). Ative Dados > Criar um filtro e Exibir > Congelar > 1 linha; coedição em tempo real funciona."
+    },
+    {
+      "question": "Preciso pagar ou fazer cadastro para baixar?",
+      "answer": "Não. É 100% grátis, sem cadastro nem e-mail, para uso imediato."
+    },
+    {
+      "question": "Posso usar na minha empresa (CNPJ) e com clientes?",
+      "answer": "Sim. Uso comercial interno é livre, inclusive por RH/TA, gestores e consultorias; você pode adaptar à sua realidade. Apenas não revendê-la como produto."
+    },
+    {
+      "question": "Consigo personalizar critérios, pesos das notas e metas?",
+      "answer": "Sim; edite as listas de critérios, metas e fórmulas. Para pesos, troque a média simples por SOMARPRODUTO ou MÉDIA.PONDERADA e ajuste as regras de status (ex.: >=7 Aprovado, >=5 Em Análise) conforme sua política."
+    },
+    {
+      "question": "É compatível com quais versões do Excel e LibreOffice?",
+      "answer": "Excel 2016, 2019, 2021 e Microsoft 365 (Windows/Mac) funcionam 100%. LibreOffice Calc 7+ funciona, mas formatação condicional e alguns filtros podem exigir pequenos ajustes. No celular (iOS/Android) dá para ver/editar, porém a navegação é limitada."
+    },
+    {
+      "question": "Serve para vagas CLT, PJ e estágio?",
+      "answer": "Sim; os critérios técnicos/comportamentais e a análise por cargo atendem CLT, PJ, estágio e trainee. O status é automático (>=7 Aprovado; >=5 Em Análise; <5 Reprovado) e os KPIs se atualizam na hora."
+    },
+    {
+      "question": "Quantos candidatos posso registrar sem travar a planilha?",
+      "answer": "Em PCs comuns, 5.000–10.000 linhas rodam bem; acima disso pode ficar lento, especialmente com filtros. Se passar de 10k, filtre por período/cargo ou divida por arquivos/mês."
+    },
+    {
+      "question": "A planilha está adequada à LGPD (dados pessoais)?",
+      "answer": "Ela não coleta nada por conta própria; você é o controlador dos dados. Evite guardar CPF/endereços, restrinja o compartilhamento, proteja com senha e defina prazos de exclusão conforme a LGPD e a política da sua empresa."
+    }
+  ],
+  "schema": {
+    "datePublished": "2025-12-15T13:04:20.479Z"
+  },
+  "excelUrl": "/downloads/excel-Planilha_Teste_De_Excel_Para_Entrevista-1765803326993.xlsx",
+  "downloadCount": 792,
+  "rating": 4.8,
+  "createdAt": "2025-12-15T13:04:20.479Z",
+  "updatedAt": "2025-12-15T13:04:20.479Z",
+  "texts": {
+    "downloadButton": "Baixar Gratis",
+    "featuresTitle": "O que esta planilha inclui?",
+    "faqsTitle": "Perguntas Frequentes",
+    "ctaTitle": "Pronto para organizar seu negocio?",
+    "ctaSubtitle": "Baixe esta planilha profissional gratuitamente e economize tempo",
+    "ctaButton": "Baixar Agora - 100% Gratis",
+    "benefits": "Download imediato - Sem cadastro - Compativel com Excel, Google Sheets e LibreOffice"
+  }
+}

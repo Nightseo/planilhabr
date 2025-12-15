@@ -1,0 +1,104 @@
+{
+  "slug": "pdca-dashboard-indicadores",
+  "keyword": "Planilha Pdca Excel",
+  "category": "Financeiro",
+  "title": "Planilha PDCA Excel: controle projetos e dashboard pronto",
+  "description": "Acompanhe ciclos PDCA no Excel com indicadores e dashboard prontos. Priorize ações e prazos. Ideal para PMEs de indústria, logística e serviços.",
+  "metaTitle": "Planilha PDCA Excel: controle projetos e dashboard pronto",
+  "metaDescription": "Acompanhe ciclos PDCA no Excel com indicadores e dashboard prontos. Priorize ações e prazos. Ideal para PMEs de indústria, logística e serviços.",
+  "h1": "Planilha Pdca Excel",
+  "keywords": "planilha pdca excel, modelo pdca excel, planilha 5w2h pdca, controle projetos pdca, dashboard indicadores pdca",
+  "briefDescription": "Controlar e acompanhar ciclos PDCA de projetos de melhoria contínua com indicadores e dashboard prontos em Excel. Ideal para PMEs e médias empresas (indústria, logística, serviços) e para gestores de qualidade/operacões/PMO/Lean que precisam priorizar, cumprir prazos e reportar resultados.",
+  "features": [
+    "Centraliza até 18 projetos e evita reuniões paralelas e planilhas soltas.",
+    "Semáforo automático destaca atrasos em vermelho, facilitando cobrança diária do responsável.",
+    "Progresso calculado reduz discussões; reunião de status cai para 15 minutos.",
+    "KPIs com meta e atingimento% prontos para prestação de contas ao diretor.",
+    "Campo de economia em R$ mostra retorno do projeto e prioriza investimentos.",
+    "IDs e prazos automáticos evitam erros de digitação e retrabalho no time.",
+    "Gráficos de Fase e Status revelam gargalos e distribuem melhor a equipe.",
+    "Atingimento% automático agiliza reporte mensal de metas e resultados por CNPJ.",
+    "Filtros e painéis congelados aceleram navegação em reuniões com clientes.",
+    "Prioridade automática orienta onde colocar a equipe na semana, sem achismo."
+  ],
+  "seoContent": {
+    "sections": [
+      {
+        "id": "need",
+        "title": "Por que sua empresa precisa de uma Planilha PDCA no Excel",
+        "content": "<p>Empresários no Brasil convivem com prazos apertados, times enxutos e muita cobrança por resultados. Sem um controle simples e confiável, os projetos de melhoria se perdem: cada área usa um arquivo diferente, o status fica desatualizado, ninguém sabe a prioridade do dia e o diretor pergunta “cadê o resultado?”. A planilha PDCA em Excel resolve esse caos ao centralizar até 18 projetos com fases, responsáveis, prazos, semáforo e indicadores prontos para apresentar em reunião. Ajuda, inclusive, na conversa com o financeiro/contador ao mostrar economia em R$ e metas claras por centro de custo.</p><p>No contexto brasileiro, onde MPEs representam ~99% das empresas e geram mais de 50% dos empregos formais (Sebrae), gestão disciplinada faz diferença. Segundo o IBGE, menos de 40% das empresas sobrevivem após 5 anos — falhas de controle e planejamento estão entre as causas. Uma planilha PDCA acessível, sem mensalidade e padronizada para sua realidade (CNPJ/filiais, departamentos, CLT/turnos) reduz retrabalho e acelera resultados.</p><ul><li>Visão única: status, fase, prioridade e progresso% em um lugar.</li><li>Semáforo automático para alertar atrasos antes de estourar prazos com clientes/fornecedores.</li><li>KPIs com metas e atingimento% para prestação de contas ao sócio/contador.</li><li>Gráficos de Fase/Status para enxergar gargalos e balancear a equipe.</li><li>Campo de economia (R$) para ligar melhoria ao DRE e ao caixa.</li></ul>"
+      },
+      {
+        "id": "scope",
+        "title": "O que vem na planilha: estrutura e conteúdo prontos",
+        "content": "<p>A planilha foi desenhada para PMEs e médias empresas (indústria, logística e serviços) que precisam organizar o ciclo PDCA com clareza e rapidez. São três abas integradas, com fórmulas, validações e formatação condicional já configuradas.</p><ul><li><strong>PDCA – Ciclos</strong>: cadastro e acompanhamento linha a linha. Campos: ID automático, Projeto, Fase (Planejar/Executar/Checar/Agir), Responsável, Departamento, Início, Prazo, Status (Em andamento/Atrasado/Concluído), Progresso% e Prioridade. Semáforo de Status e Prioridade, filtros prontos e painéis congelados para navegação em reuniões. Fórmulas tipo <strong>SE</strong> para Progresso% por status, cálculo de atraso (dias), e geração de prazos a partir de data base.</li><li><strong>Análise de Dados</strong>: métricas consolidadas com <em>Valor</em>, <em>Meta</em>, <em>Atingimento%</em>, <em>Tendência</em> e <em>Observação</em>. KPIs calculados com <strong>SOMASES</strong>, <strong>MÉDIASE</strong>, <strong>CONT.SES</strong> e <strong>SEERRO(Valor/Meta;0)</strong>. Inclui progresso médio, nº de atrasos, tempo de ciclo, satisfação (escala 0–10) e economia/benefício (R$).</li><li><strong>Dashboard</strong>: visão executiva com taxa de conclusão, progresso médio, projetos ativos, economia total, prazo médio e satisfação. Gráficos automáticos de Fase e Status conectados às tabelas. Formatação monetária em R$, filtros por departamento/responsável e atualização instantânea conforme os dados.</li></ul><p>Automatizações: IDs e prazos gerados por data base, Progresso% por status, semáforos verde/amarelo/vermelho, cálculos de atingimento (=Valor/Meta), filtros aplicados e colunas dimensionadas, além de gráficos que se atualizam com novos registros.</p>"
+      },
+      {
+        "id": "usage",
+        "title": "Como usar passo a passo e personalizar para sua operação",
+        "content": "<ol><li><strong>Configuração inicial</strong>: salve uma cópia-mestre e defina a <em>data base</em>. Ajuste listas de <em>Fase</em>, <em>Status</em>, <em>Departamento</em> e <em>Responsável</em> (Validação de Dados) às áreas do seu CNPJ/filiais.</li><li><strong>Cadastrar projetos</strong>: na aba PDCA – Ciclos, preencha Projeto, Responsável, Departamento, Início e Prazo. O ID é gerado automaticamente. Defina Prioridade (Alta/Média/Baixa) e a Fase atual.</li><li><strong>Economia e metas</strong>: registre a <em>Meta (R$)</em> e o <em>Valor</em> alcançado. O Atingimento% é calculado automaticamente na Análise de Dados.</li><li><strong>Atualização semanal</strong>: ajuste o <em>Status</em> (Em andamento/Atrasado/Concluído). O semáforo muda sozinho e o Progresso% é recalculado.</li><li><strong>Revisão de métricas</strong>: na Análise de Dados, confira KPIs (progresso médio, atrasos, prazo médio, satisfação) e comente tendências em <em>Observação</em>.</li><li><strong>Dashboard em reunião</strong>: use filtros por Departamento/Responsável para conduzir a pauta. Painéis estão congelados para leitura rápida; exporte em PDF para diretoria/contador.</li><li><strong>Personalização</strong>: ajuste faixas de Progresso% por Status (ex.: Em andamento = 50–80%), cores do semáforo e metas internas. Adeque formatação monetária para R$.</li><li><strong>Governança</strong>: proteja células com fórmulas, trabalhe em Tabela (Ctrl+T) e salve no OneDrive/SharePoint para versionamento.</li></ol><p><strong>Alerta</strong>: não insira colunas/linhas fora das tabelas, nem apague fórmulas; isso quebra gráficos e KPIs.</p><p><strong>Dica profissional</strong>: crie uma aba “Parâmetros” com metas por departamento e use <em>PROCX/PROCV</em> para trazê-las automaticamente aos projetos.</p>"
+      },
+      {
+        "id": "comparison",
+        "title": "Excel x alternativas: quando usar cada opção",
+        "content": "<p><strong>Excel (esta planilha PDCA)</strong>: ideal para até ~50–100 projetos ativos, equipe pequena/média e necessidade de controle rápido, sem mensalidade. Vantagens: baixo custo, offline, alta flexibilidade (KPIs em R$ do seu DRE), privacidade e implantação imediata. Limitações: colaboração simultânea limitada, poucos logs/auditoria, anexos e notificações fracos, risco de erro humano se não houver disciplina.</p><p><strong>Google Sheets</strong>: colaboração em tempo real e comentários são ótimos, mas perde desempenho em bases maiores e recursos avançados do desktop.</p><p><strong>Softwares de projeto (Trello/Asana/Monday/Jira)</strong>: oferecem kanban, notificações, tarefas, anexos e permissões robustas. Custos por usuário (R$) e curva de aprendizado; personalizar KPIs financeiros pode exigir integrações.</p><p><strong>ERP/BPM</strong>: bons para processos críticos e rastreabilidade (ISO 9001), mas implantação é mais longa e cara.</p><p><strong>Power BI</strong>: excelente para dashboards executivos; exige fonte de dados estável (pode ser esta planilha) e licença Pro para compartilhar.</p><p><strong>Recomendação</strong>: comece no Excel quando precisa agilidade, orçamento enxuto e autonomia. Migre ou complemente com sistema quando houver muitos usuários (>30), múltiplas áreas com SLAs, auditorias frequentes e necessidade de workflow/alertas.</p>"
+      },
+      {
+        "id": "pitfalls",
+        "title": "Erros comuns e dicas de especialista para não sofrer no dia a dia",
+        "content": "<ul><li><strong>Erro 1 – Misturar formatos</strong>: digitar datas como texto e valores em R$ sem formatação causa cálculos incorretos (prazo, economia, atingimento%).</li><li><strong>Erro 2 – Atualizar status sem revisar prazo</strong>: marcar “Em andamento” eternamente gera progresso% parado e distorce o lead time.</li><li><strong>Erro 3 – Quebrar a estrutura</strong>: inserir colunas fora das tabelas, apagar fórmulas e colar dados “por cima” derruba gráficos e KPIs do dashboard.</li></ul><ul><li><strong>Dica avançada 1 – Tabelas inteligentes</strong>: transforme as áreas em Tabelas (Ctrl+T). Assim, gráficos e fórmulas expandem automaticamente e você evita intervalos “quebrados”.</li><li><strong>Dica avançada 2 – Validação e parâmetros</strong>: crie uma aba “Parâmetros” com listas (Status, Fase, Departamentos) e metas por área. Use <em>PROCX</em> para puxar metas e <em>SOMASES</em>/<em>CONT.SES</em> para KPIs por departamento e CNPJ.</li><li><strong>Dica avançada 3 – Integração leve</strong>: com <em>Power Query</em>, importe progresso de outras unidades (CSV/Sheets), padronize colunas e consolide no dashboard. Use um campo “CNPJ+ID” para rastrear origem.</li></ul><p><strong>Atalhos úteis</strong>: Ctrl+Shift+L (liga/desliga filtros), F4 (repete última ação/formatação), Ctrl+1 (formatação de células), Ctrl+; (insere data de hoje). Ganho real em reuniões.</p><p><strong>Governança</strong>: proteja células com fórmulas, registre economia com centros de custo (para dialogar com o contador) e salve versões (v1, v2…) no OneDrive/SharePoint. Assim, você mantém rastreabilidade e transparência na prestação de contas.</p>"
+      }
+    ]
+  },
+  "faqs": [
+    {
+      "question": "A planilha funciona no Google Sheets?",
+      "answer": "Sim. Faça upload do .xlsx no Google Drive e abra no Sheets (ou use Arquivo > Importar). Filtros, congelamento, semáforos e gráficos funcionam; pode haver pequenas diferenças visuais. Não usa macros, então 90%+ dos recursos roda bem no Sheets."
+    },
+    {
+      "question": "Preciso pagar ou fazer cadastro para baixar?",
+      "answer": "Não. É 100% grátis, sem cadastro e sem pegadinhas. Baixe, copie e use como quiser."
+    },
+    {
+      "question": "Posso usar na minha empresa com CNPJ (uso comercial)?",
+      "answer": "Pode, uso comercial é liberado. Ideal para PMEs e médias (indústria, logística, serviços) que precisam reportar resultados e prazos. Você pode compartilhar internamente e usar nos seus projetos."
+    },
+    {
+      "question": "Consigo personalizar fases, KPIs, responsáveis e prioridades?",
+      "answer": "Sim. Edite listas (responsável/depto), fases PDCA, metas e moeda (R$) e ajuste faixas do semáforo. Só preserve as fórmulas/intervalos dos gráficos; faça uma cópia antes de alterar."
+    },
+    {
+      "question": "Funciona no Excel 2013/2016/2019/365 e no Mac?",
+      "answer": "Recomendado: Excel 2016, 2019, 2021 e Microsoft 365 (Windows e Mac). No Excel 2013 funciona o básico, mas alguns gráficos/formatos podem perder estilo. 32/64 bits ok; mantenha o separador decimal PT-BR."
+    },
+    {
+      "question": "Funciona no LibreOffice Calc ou somente no Excel?",
+      "answer": "Abre no Calc e calcula, porém formatação condicional e gráficos podem ficar diferentes. Para melhor experiência e semáforos fiéis, prefira Excel ou Google Sheets."
+    },
+    {
+      "question": "Serve para MEI, pequenas equipes e projetos Lean/Kaizen?",
+      "answer": "Serve sim. Você controla até 18 projetos/iniciativas, com % de progresso, KPIs e benefício em R$. Não precisa PMO formal: ótimo para Kaizen, 5S, SMED, PCP e melhorias do dia a dia."
+    },
+    {
+      "question": "Dá para aumentar para mais de 18 projetos?",
+      "answer": "Dá. Insira novas linhas e atualize os intervalos dos gráficos e do dashboard. Acima de ~50 projetos pode ficar mais lento; se precisar, separe por área ou trimestre."
+    }
+  ],
+  "schema": {
+    "datePublished": "2025-12-15T13:45:50.529Z"
+  },
+  "excelUrl": "/downloads/excel-Planilha_Pdca_Excel-1765805848617.xlsx",
+  "downloadCount": 1610,
+  "rating": 4.8,
+  "createdAt": "2025-12-15T13:45:50.529Z",
+  "updatedAt": "2025-12-15T13:45:50.529Z",
+  "texts": {
+    "downloadButton": "Baixar Gratis",
+    "featuresTitle": "O que esta planilha inclui?",
+    "faqsTitle": "Perguntas Frequentes",
+    "ctaTitle": "Pronto para organizar seu negocio?",
+    "ctaSubtitle": "Baixe esta planilha profissional gratuitamente e economize tempo",
+    "ctaButton": "Baixar Agora - 100% Gratis",
+    "benefits": "Download imediato - Sem cadastro - Compativel com Excel, Google Sheets e LibreOffice"
+  }
+}
