@@ -127,7 +127,7 @@ const KeywordRow: React.FC<KeywordRowProps> = ({ index, style, data }) => {
       style={style}
       className={cn(
         'flex items-center border-b border-gray-200 hover:bg-gray-50 transition-colors px-4',
-        isSelected && 'bg-teal-50'
+        isSelected && 'bg-green-50'
       )}
     >
       {/* Checkbox */}
@@ -136,7 +136,7 @@ const KeywordRow: React.FC<KeywordRowProps> = ({ index, style, data }) => {
           type="checkbox"
           checked={isSelected}
           onChange={() => onSelectKeyword(keyword.id)}
-          className="rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+          className="rounded border-gray-300 text-green-600 focus:ring-green-500"
           aria-label={`Selecionar keyword ${keyword.keyword}`}
         />
       </div>
@@ -313,9 +313,9 @@ const BulkActions: React.FC<BulkActionsProps> = ({
   if (selectedCount === 0) return null
   
   return (
-    <div className="mt-4 p-4 bg-teal-50 rounded-lg border border-teal-200">
+    <div className="mt-4 p-4 bg-green-50 rounded-lg border border-green-200">
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
-        <span className="text-sm font-medium text-teal-800">
+        <span className="text-sm font-medium text-green-800">
           {selectedCount} keywords selecionados
         </span>
         
@@ -325,7 +325,7 @@ const BulkActions: React.FC<BulkActionsProps> = ({
               variant="primary"
               size="sm"
               onClick={onBulkGenerateExcel}
-              className="bg-teal-600 hover:bg-teal-700"
+              className="bg-green-600 hover:bg-green-700"
               title="Gera automaticamente Excel + SEO para todas as keywords selecionadas"
             >
               Gerar {bulkExcelCount} completo(s)
@@ -372,7 +372,7 @@ const TableHeader: React.FC<TableHeaderProps> = ({
   const getSortIcon = (field: KeywordFilters['sortBy']) => {
     if (filters.sortBy !== field) return null
     return (
-      <span className="text-teal-600 ml-1">
+      <span className="text-green-600 ml-1">
         {filters.sortOrder === 'asc' ? '↑' : '↓'}
       </span>
     )
@@ -381,7 +381,7 @@ const TableHeader: React.FC<TableHeaderProps> = ({
   return (
     <>
       {/* Filter Controls */}
-      <div className="p-6 border-b border-teal-200/40">
+      <div className="p-6 border-b border-green-200/40">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
           <div>
             <h2 className="text-xl font-bold text-green-900">Gerenciamento de Keywords</h2>
@@ -402,7 +402,7 @@ const TableHeader: React.FC<TableHeaderProps> = ({
             <select
               value={filters.status}
               onChange={(e) => onFiltersChange({ ...filters, status: e.target.value as KeywordFilters['status'] })}
-              className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-teal-500/20 focus:border-teal-500"
+              className="px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-green-500/20 focus:border-green-500"
               aria-label="Filtrar por status"
             >
               <option value="all">Todos os status</option>
@@ -423,7 +423,7 @@ const TableHeader: React.FC<TableHeaderProps> = ({
             type="checkbox"
             checked={selectedCount > 0}
             onChange={onSelectAll}
-            className="rounded border-gray-300 text-teal-600 focus:ring-teal-500"
+            className="rounded border-gray-300 text-green-600 focus:ring-green-500"
             aria-label="Selecionar todas as keywords"
           />
         </div>
@@ -543,7 +543,7 @@ export const KeywordTable: React.FC<KeywordTableProps> = ({
   const ROW_HEIGHT = 64
 
   return (
-    <div className={cn('bg-white rounded-xl shadow-lg border border-teal-200/40', className)}>
+    <div className={cn('bg-white rounded-xl shadow-lg border border-green-200/40', className)}>
       {/* Header con controles */}
       <TableHeader
         totalCount={totalCount}

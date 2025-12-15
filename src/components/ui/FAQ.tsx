@@ -47,8 +47,8 @@ const FAQItemComponent: React.FC<FAQItemProps> = ({
 }) => {
   const baseClasses = cn(
     'transition-all duration-200',
-    variant === 'default' && 'bg-teal-50 rounded-2xl p-8 hover:bg-teal-100',
-    variant === 'bordered' && 'border border-gray-200 rounded-lg p-6 hover:border-teal-300',
+    variant === 'default' && 'bg-green-50 rounded-2xl p-8 hover:bg-green-100',
+    variant === 'bordered' && 'border border-gray-200 rounded-lg p-6 hover:border-green-300',
     variant === 'minimal' && 'border-b border-gray-200 pb-6 last:border-b-0'
   )
 
@@ -56,7 +56,7 @@ const FAQItemComponent: React.FC<FAQItemProps> = ({
     <div className={baseClasses}>
       <button
         type="button"
-        className="flex justify-between items-start w-full text-left focus:outline-none focus:ring-2 focus:ring-teal-500/20 rounded-lg"
+        className="flex justify-between items-start w-full text-left focus:outline-none focus:ring-2 focus:ring-green-500/20 rounded-lg"
         onClick={onToggle}
         aria-expanded={isOpen}
         aria-controls={`faq-answer-${index}`}
@@ -67,7 +67,7 @@ const FAQItemComponent: React.FC<FAQItemProps> = ({
         </h3>
         <ChevronDownIcon
           className={cn(
-            'w-6 h-6 text-teal-600 flex-shrink-0 transition-transform duration-200',
+            'w-6 h-6 text-green-600 flex-shrink-0 transition-transform duration-200',
             isOpen ? 'rotate-180' : 'rotate-0'
           )}
           aria-hidden="true"

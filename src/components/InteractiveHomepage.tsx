@@ -208,7 +208,7 @@ export default function InteractiveHomepage({ featuredTemplates, totalModels }: 
               { icon: <ArrowTrendingUpIcon className="w-8 h-8" />, title: 'Analise de Fluxo de Caixa', desc: 'Planejamento 13 semanas, Capital de Giro', gradient: 'from-green-500 to-emerald-500' },
               { icon: <ChartBarIcon className="w-8 h-8" />, title: 'Dashboard de KPIs', desc: 'Relatorios Gerenciais, Metricas', gradient: 'from-orange-500 to-red-500' },
               { icon: <CpuChipIcon className="w-8 h-8" />, title: 'Controle de Investimentos', desc: 'Gestao de Portfolio, ROI', gradient: 'from-indigo-500 to-blue-500' },
-              { icon: <WalletIcon className="w-8 h-8" />, title: 'Controle de Despesas', desc: 'Custos de Viagem, Comprovantes', gradient: 'from-teal-500 to-cyan-500' }
+              { icon: <WalletIcon className="w-8 h-8" />, title: 'Controle de Despesas', desc: 'Custos de Viagem, Comprovantes', gradient: 'from-green-500 to-emerald-500' }
             ].map((category, index) => (
               <Link
                 key={category.title}

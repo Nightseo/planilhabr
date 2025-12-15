@@ -29,7 +29,7 @@ export const categoriesData = {
     name: 'RH',
     description: 'Controle de funcionarios, ferias, folha de pagamento, banco de horas e indicadores de RH.',
     icon: 'users',
-    color: 'teal'
+    color: 'green'
   },
   projetos: {
     id: 'projetos' as const,

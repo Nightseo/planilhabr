@@ -210,7 +210,7 @@ export const SearchInput: React.FC<SearchInputProps> = ({
       {shouldShowResults && (
         <div
           ref={resultsRef}
-          className="absolute top-full mt-2 w-full bg-white rounded-2xl shadow-2xl border border-teal-200 z-50 overflow-hidden"
+          className="absolute top-full mt-2 w-full bg-white rounded-2xl shadow-2xl border border-green-200 z-50 overflow-hidden"
           role="listbox"
         >
           {hasResults && (
@@ -221,7 +221,7 @@ export const SearchInput: React.FC<SearchInputProps> = ({
                   role="option"
                   aria-selected={index === focusedIndex}
                   className={cn(
-                    index === focusedIndex && 'bg-teal-50'
+                    index === focusedIndex && 'bg-green-50'
                   )}
                 >
                   <SearchResultItem

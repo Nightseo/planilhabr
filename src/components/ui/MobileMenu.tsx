@@ -63,9 +63,9 @@ const MobileMenuTrigger: React.FC<MobileMenuTriggerProps> = ({
       type="button"
       onClick={onToggle}
       className={cn(
-        'relative z-50 p-2 rounded-xl bg-white text-gray-700 hover:text-teal-800',
-        'border border-gray-200 hover:border-teal-300 shadow-sm',
-        'transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-teal-500/20',
+        'relative z-50 p-2 rounded-xl bg-white text-gray-700 hover:text-green-800',
+        'border border-gray-200 hover:border-green-300 shadow-sm',
+        'transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-green-500/20',
         'lg:hidden',
         className
       )}
@@ -131,7 +131,7 @@ const MobileMenuContent: React.FC<MobileMenuContentProps> = ({
       <div
         className={cn(
           'lg:hidden fixed left-0 right-0 top-14 z-50',
-          'bg-white border-b border-teal-200/60 shadow-lg',
+          'bg-white border-b border-green-200/60 shadow-lg',
           'transition-all duration-300 overflow-hidden',
           isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0',
           className
@@ -162,9 +162,9 @@ const MobileMenuItem: React.FC<MobileMenuItemProps> = ({
     <Link
       href={href}
       className={cn(
-        'block px-4 py-2 text-gray-700 hover:text-teal-800',
-        'hover:bg-teal-50 rounded-xl transition-all duration-200',
-        'focus:bg-teal-50 focus:outline-none focus:ring-2 focus:ring-teal-500/20',
+        'block px-4 py-2 text-gray-700 hover:text-green-800',
+        'hover:bg-green-50 rounded-xl transition-all duration-200',
+        'focus:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-500/20',
         className
       )}
       onClick={onClick}
@@ -199,9 +199,9 @@ const MobileSubMenu: React.FC<MobileSubMenuProps> = ({
         onClick={() => setIsOpen(!isOpen)}
         className={cn(
           'w-full flex items-center justify-between px-4 py-2',
-          'text-gray-700 hover:text-teal-800 hover:bg-teal-50',
+          'text-gray-700 hover:text-green-800 hover:bg-green-50',
           'rounded-xl transition-all duration-200',
-          'focus:bg-teal-50 focus:outline-none focus:ring-2 focus:ring-teal-500/20'
+          'focus:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-500/20'
         )}
         aria-expanded={isOpen}
         role="menuitem"
@@ -230,8 +230,8 @@ const MobileSubMenu: React.FC<MobileSubMenuProps> = ({
               className={cn(
                 'w-full flex items-center space-x-3 px-4 py-2',
                 'text-sm text-gray-600 hover:text-emerald-700',
-                'hover:bg-teal-50 rounded-xl transition-all duration-200',
-                'focus:bg-teal-50 focus:outline-none focus:ring-2 focus:ring-teal-500/20',
+                'hover:bg-green-50 rounded-xl transition-all duration-200',
+                'focus:bg-green-50 focus:outline-none focus:ring-2 focus:ring-green-500/20',
                 'text-left'
               )}
               role="menuitem"
