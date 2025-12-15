@@ -3,38 +3,39 @@
  */
 
 /**
- * Formatea una fecha en formato legible en alemán
+ * Formata uma data em formato legivel brasileiro
  */
-export function formatDateGerman(dateString: string): string {
+export function formatDateBrazilian(dateString: string): string {
   try {
     const date = new Date(dateString)
-    return date.toLocaleDateString('de-DE', {
+    return date.toLocaleDateString('pt-BR', {
       day: 'numeric',
       month: 'long',
       year: 'numeric'
     })
   } catch {
-    return 'Kürzlich'
+    return 'Recentemente'
   }
 }
 
 /**
- * Obtiene el nombre de categoría en alemán
+ * Obtém o nome de categoria em português
  */
 export function getCategoryDisplayName(category: string): string {
   const categoryNames: { [key: string]: string } = {
-    'Buchhaltung': 'Buchhaltung',
-    'Dokumentation': 'Dokumentation',
-    'Datenverwaltung': 'Datenverwaltung',
-    'Logistik': 'Logistik',
-    'Personalmanagement': 'Personalmanagement',
-    'Projektmanagement': 'Projektmanagement',
-    'Qualitätsmanagement': 'Qualitätsmanagement',
-    'Sicherheit': 'Sicherheit',
-    'Spezial': 'Spezial',
-    'Verwaltung': 'Verwaltung',
-    'Technik': 'Technik'
+    'financeiro': 'Financeiro',
+    'estoque': 'Estoque',
+    'vendas': 'Vendas',
+    'rh': 'Recursos Humanos',
+    'projetos': 'Projetos',
+    'produtividade': 'Produtividade',
+    'marketing': 'Marketing',
+    'contabilidade': 'Contabilidade',
+    'logistica': 'Logistica',
+    'qualidade': 'Qualidade',
+    'compras': 'Compras',
+    'administracao': 'Administracao'
   }
-  
+
   return categoryNames[category] || category
 }

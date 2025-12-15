@@ -70,7 +70,7 @@ const MobileMenuTrigger: React.FC<MobileMenuTriggerProps> = ({
         className
       )}
       aria-expanded={isOpen}
-      aria-label={isOpen ? 'Menü schließen' : 'Menü öffnen'}
+      aria-label={isOpen ? 'Fechar menu' : 'Abrir menu'}
     >
       {isOpen ? (
         <XMarkIcon className="w-6 h-6" />

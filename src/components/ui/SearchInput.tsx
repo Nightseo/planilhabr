@@ -235,7 +235,7 @@ export const SearchInput: React.FC<SearchInputProps> = ({
           
           {showNoResultsMessage && (
             <div className="px-4 py-3 text-sm text-gray-500 text-center">
-              Keine Ergebnisse gefunden für &quot;{query}&quot;
+              Nenhum resultado encontrado para &quot;{query}&quot;
             </div>
           )}
         </div>

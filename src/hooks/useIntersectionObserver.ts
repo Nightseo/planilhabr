@@ -126,12 +126,13 @@ export const useLazyImage = (src: string, placeholder?: string) => {
 }
 
 // Hook para animaciones en scroll
+// NOTA: No usar opacity-0 para SEO - googlebot no ve contenido invisible
 export const useScrollAnimation = (
   animationClass = 'animate-fadeInUp',
   options: UseIntersectionObserverOptions = {}
 ) => {
-  const [hasAnimated, setHasAnimated] = useState(false)
-  
+  const [hasAnimated, setHasAnimated] = useState(true) // Start visible for SEO
+
   const { ref, isVisible } = useIntersectionObserver({
     threshold: 0.2,
     freezeOnceVisible: true,
@@ -146,7 +147,7 @@ export const useScrollAnimation = (
 
   return {
     ref,
-    className: hasAnimated ? animationClass : 'opacity-0',
+    className: animationClass, // Always visible for SEO
     isVisible,
     hasAnimated
   }

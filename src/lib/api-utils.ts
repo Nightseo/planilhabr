@@ -105,7 +105,7 @@ export const validateRequestBody = <T>(
       const body = await request.json()
 
       if (!validator(body)) {
-        reject(new APIError('INVALID_REQUEST_BODY', 'Ungültige Request-Daten', 400))
+        reject(new APIError('INVALID_REQUEST_BODY', 'Dados de requisicao invalidos', 400))
         return
       }
 
@@ -113,7 +113,7 @@ export const validateRequestBody = <T>(
     } catch (error) {
       reject(new APIError(
         'MALFORMED_JSON',
-        'Fehlerhaftes JSON im Request-Body',
+        'JSON mal formatado no corpo da requisicao',
         400,
         { originalError: error instanceof Error ? error.message : String(error) }
       ))
@@ -315,7 +315,7 @@ export const withRateLimit = (
     if (!checkRateLimit(clientIP, limitPerMinute)) {
       return createErrorResponse({
         code: 'RATE_LIMIT_EXCEEDED',
-        message: 'Request-Limit überschritten. Versuchen Sie es in einer Minute erneut.',
+        message: 'Limite de requisicoes excedido. Tente novamente em um minuto.',
         statusCode: 429
       })
     }

@@ -137,7 +137,7 @@ const KeywordRow: React.FC<KeywordRowProps> = ({ index, style, data }) => {
           checked={isSelected}
           onChange={() => onSelectKeyword(keyword.id)}
           className="rounded border-gray-300 text-teal-600 focus:ring-teal-500"
-          aria-label={`Keyword ${keyword.keyword} auswählen`}
+          aria-label={`Selecionar keyword ${keyword.keyword}`}
         />
       </div>
       
@@ -316,7 +316,7 @@ const BulkActions: React.FC<BulkActionsProps> = ({
     <div className="mt-4 p-4 bg-teal-50 rounded-lg border border-teal-200">
       <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3">
         <span className="text-sm font-medium text-teal-800">
-          {selectedCount} Keywords ausgewählt
+          {selectedCount} keywords selecionados
         </span>
         
         <div className="flex gap-2">
@@ -326,9 +326,9 @@ const BulkActions: React.FC<BulkActionsProps> = ({
               size="sm"
               onClick={onBulkGenerateExcel}
               className="bg-teal-600 hover:bg-teal-700"
-              title="Generiert automatisch Excel + SEO für alle ausgewählten Keywords"
+              title="Gera automaticamente Excel + SEO para todas as keywords selecionadas"
             >
-              {bulkExcelCount} vollständig generieren
+              Gerar {bulkExcelCount} completo(s)
             </Button>
           )}
 
@@ -424,7 +424,7 @@ const TableHeader: React.FC<TableHeaderProps> = ({
             checked={selectedCount > 0}
             onChange={onSelectAll}
             className="rounded border-gray-300 text-teal-600 focus:ring-teal-500"
-            aria-label="Alle Keywords auswählen"
+            aria-label="Selecionar todas as keywords"
           />
         </div>
         <div className="w-16 flex-shrink-0">#</div>

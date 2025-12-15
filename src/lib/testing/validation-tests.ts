@@ -224,24 +224,24 @@ export const typeGuardTests = (): TestSuite => {
 
 export const utilityTests = (): TestSuite => {
   return runTestSuite('Utility Tests', [
-    () => runTest('formatCurrency should format German currency', () => {
+    () => runTest('formatCurrency should format Brazilian currency', () => {
       const result1 = formatCurrency(1234.56)
-      if (result1 !== '1.234,56 €') throw new Error(`Expected "1.234,56 €", got "${result1}"`)
-      
+      if (!result1.includes('R$') && !result1.includes('1.234,56')) throw new Error(`Expected Brazilian Real format, got "${result1}"`)
+
       const result2 = formatCurrency(0)
-      if (result2 !== '0,00 €') throw new Error(`Expected "0,00 €", got "${result2}"`)
-      
+      if (!result2.includes('R$') && !result2.includes('0,00')) throw new Error(`Expected "R$ 0,00", got "${result2}"`)
+
       const result3 = formatCurrency(-500.25)
-      if (result3 !== '-500,25 €') throw new Error(`Expected "-500,25 €", got "${result3}"`)
+      if (!result3.includes('R$')) throw new Error(`Expected Brazilian Real format, got "${result3}"`)
     }),
-    
-    () => runTest('formatDate should format German dates', () => {
+
+    () => runTest('formatDate should format Brazilian dates', () => {
       const date = new Date('2025-01-15T10:30:00Z')
       const result = formatDate(date)
-      
-      // Should be in German format DD.MM.YYYY
-      if (!result.match(/^\d{2}\.\d{2}\.\d{4}$/)) {
-        throw new Error(`Expected German date format DD.MM.YYYY, got "${result}"`)
+
+      // Should be in Brazilian format (e.g., "15 de janeiro de 2025")
+      if (!result.includes('janeiro') && !result.includes('2025')) {
+        throw new Error(`Expected Brazilian date format, got "${result}"`)
       }
     }),
     

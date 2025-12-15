@@ -49,7 +49,7 @@ export interface PlantillaData {
 }
 
 /**
- * Ruft alle verfügbaren Plantillas aus den JSON-Dateien ab
+ * Obtém todas as planilhas disponíveis dos arquivos JSON
  */
 export async function getAllPlantillas(): Promise<PlantillaData[]> {
   try {
@@ -102,19 +102,19 @@ export async function getAllPlantillas(): Promise<PlantillaData[]> {
 }
 
 /**
- * Ruft 3 verwandte Plantillas nach Kategorie ab (aktuelle ausgeschlossen)
+ * Obtém 3 planilhas relacionadas por categoria (excluindo a atual)
  */
 export async function getRelatedPlantillas(currentSlug: string, category: string): Promise<PlantillaData[]> {
   const allPlantillas = await getAllPlantillas()
 
-  // Nach Kategorie filtern und aktuelle Plantilla ausschließen
+  // Filtrar por categoria e excluir a planilha atual
   const relatedPlantillas = allPlantillas
     .filter(plantilla => 
       plantilla.category === category && 
       plantilla.slug !== currentSlug
     )
     .sort((a, b) => {
-      // Zuerst nach Rating sortieren, dann nach downloadCount
+      // Ordenar primeiro por rating, depois por downloadCount
       const ratingDiff = (b.rating || 0) - (a.rating || 0)
       if (ratingDiff !== 0) return ratingDiff
       return (b.downloadCount || 0) - (a.downloadCount || 0)
@@ -133,7 +133,7 @@ export async function getLatestPlantillas(currentSlug: string): Promise<Plantill
   const latestPlantillas = allPlantillas
     .filter(plantilla => plantilla.slug !== currentSlug)
     .sort((a, b) => {
-      // Nach Erstellungsdatum sortieren (neueste zuerst)
+      // Ordenar por data de criacao (mais recentes primeiro)
       const dateA = new Date(a.createdAt || a.updatedAt || '2025-01-01')
       const dateB = new Date(b.createdAt || b.updatedAt || '2025-01-01')
       return dateB.getTime() - dateA.getTime()
@@ -144,17 +144,17 @@ export async function getLatestPlantillas(currentSlug: string): Promise<Plantill
 }
 
 /**
- * Formatiert ein Datum in lesbarem deutschen Format (client-safe)
+ * Formata uma data em formato brasileiro legivel (client-safe)
  */
-export function formatDateGerman(dateString: string): string {
+export function formatDateBrazilian(dateString: string): string {
   try {
     const date = new Date(dateString)
-    return date.toLocaleDateString('de-DE', {
+    return date.toLocaleDateString('pt-BR', {
       day: 'numeric',
       month: 'long',
       year: 'numeric'
     })
   } catch {
-    return 'Kürzlich'
+    return 'Recentemente'
   }
 }

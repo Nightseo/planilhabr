@@ -97,7 +97,7 @@ const FAQItemComponent: React.FC<FAQItemProps> = ({
 
 export const FAQ: React.FC<FAQProps> = ({
   items,
-  title = 'Häufig gestellte Fragen',
+  title = 'Perguntas Frequentes',
   className,
   allowMultiple = false,
   variant = 'default'

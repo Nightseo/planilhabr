@@ -32,21 +32,6 @@ const nextConfig: NextConfig = {
     gzipSize: true,
   },
   
-  // Redirects
-  async redirects() {
-    return [
-      {
-        source: '/fuhrparkmanagement-excel',
-        destination: '/fuhrparkverwaltung-excel-vorlage-kostenlos',
-        permanent: true,
-      },
-      {
-        source: '/fuhrparkmanagement-excel/',
-        destination: '/fuhrparkverwaltung-excel-vorlage-kostenlos/',
-        permanent: true,
-      },
-    ];
-  },
 
   // Headers for security and performance
   async headers() {
