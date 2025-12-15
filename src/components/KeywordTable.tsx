@@ -384,9 +384,9 @@ const TableHeader: React.FC<TableHeaderProps> = ({
       <div className="p-6 border-b border-teal-200/40">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4">
           <div>
-            <h2 className="text-xl font-bold text-green-900">Keyword Management</h2>
+            <h2 className="text-xl font-bold text-green-900">Gerenciamento de Keywords</h2>
             <p className="text-gray-600 text-sm">
-              {filteredCount} von {totalCount} Keywords
+              {filteredCount} de {totalCount} keywords
             </p>
           </div>
           
@@ -578,7 +578,7 @@ export const KeywordTable: React.FC<KeywordTableProps> = ({
       ) : (
         <div className="p-8 text-center text-gray-500">
           <ExclamationTriangleIcon className="w-12 h-12 mx-auto mb-4 text-gray-400" />
-          <p>Keine Keywords gefunden, die den Filterkriterien entsprechen.</p>
+          <p>Nenhuma keyword encontrada com os filtros aplicados.</p>
         </div>
       )}
     </div>
