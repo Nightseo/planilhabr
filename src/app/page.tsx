@@ -20,7 +20,21 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'pt_BR',
     url: 'https://www.planilhabr.com/',
-    siteName: 'PlanilhaBR.com'
+    siteName: 'PlanilhaBR.com',
+    images: [
+      {
+        url: 'https://www.planilhabr.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'PlanilhaBR - Planilhas Excel Gratuitas'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'PlanilhaBR.com - Planilhas Excel Profissionais',
+    description: 'Baixe planilhas Excel gratuitas para controle financeiro, gestao de estoque, RH e muito mais.',
+    images: ['https://www.planilhabr.com/og-image.jpg']
   },
   alternates: {
     canonical: 'https://www.planilhabr.com/'
